@@ -5,5 +5,12 @@
     "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
     "version": "0.1.0-test",
     "name": "XXYourComputableMyIGNameHere"
+  },
+  {
+    "id": "questionnaire-ee",
+    "type": "Questionnaire",
+    "url": "http://xxsomewhere.org/fhir/myig/Questionnaire/questionnaire-ee",
+    "version": "0.1.0-test",
+    "name": "questionnaire-ee"
   }
 ]
