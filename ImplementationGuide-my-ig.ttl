@@ -338,6 +338,20 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/ValueSet/be-allergyintolerancecode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/be-allergyintolerancecode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BeAllergyIntoleranceCode" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes as communicated by NIHDI and the FOD Terminology Center differentiating types of allergy intolerance codes. This valueset supports the Belgian federal FHIR profiling effort." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -347,6 +361,20 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire for Allergy / Intolerance reporting" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Questionnaire for Allergy / Intolerance reporting" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/ValueSet/be-causativeagent>;
+         fhir:Reference.reference [ fhir:value "ValueSet/be-causativeagent" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-causativeagent" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes as communicated by NIHDI and the FPS Terminology Center differentiating types of causative agent. This valueset supports the Belgian federal FHIR profiling effort." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [

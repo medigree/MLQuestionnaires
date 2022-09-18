@@ -7,13 +7,13 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><b>Structure</b><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> AllergyIntoleranceQuestionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://example.com/fhir/example/Questionnaire/allergy-intolerance-questionnaire#1.0.0</td></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" id="item.patient" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> patient</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group">group</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" id="item.patient-name" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="String" class="hierarchy"/> patient-name</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient Name</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" id="item.patient-id" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> patient-id</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient ID (SSIN)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" id="item.patient-id" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> patient-id</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient ID</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" id="item.status" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> status</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">AllergyStatus</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Options: <a href="#opt-item.status">7 options</a></td></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" id="item.clinical-status" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> clinical-status</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Clinical Status</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" id="item.verification-status" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="String" class="hierarchy"/> verification-status</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Verification Status</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.allergyintolerance" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-coding.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Coding" class="hierarchy"/> allergyintolerance</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Allergy or Intolerance?</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Options: <a href="#opt-item.allergyintolerance">2 options</a></td></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.type" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-coding.png" alt="." style="background-color: white; background-color: inherit" title="Coding" class="hierarchy"/> type</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type (food, medication, environment, biologic)?</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Options: <a href="#opt-item.type">4 options</a></td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.code" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-coding.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Coding" class="hierarchy"/> code</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Code of the allergen or substance?</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value Set: https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-allergyintolerancecode</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.code" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-coding.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Coding" class="hierarchy"/> code</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Code of the allergen or substance?</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice">choice</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value Set: <a href="ValueSet-be-allergyintolerancecode.html">BeAllergyIntoleranceCode</a></td></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.recorded" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: white; background-color: inherit" title="Group" class="hierarchy"/> recorded</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Recorded</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group">group</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.recorded-date" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-date.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Date" class="hierarchy"/> recorded-date</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of Record</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-date">date</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.recorder" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="String" class="hierarchy"/> recorder</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Recorder</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
@@ -34,21 +34,19 @@
         <valueCode value="fr-BE"/>
       </extension>
       <extension url="content">
-        <valueString value="."/>
+        <valueString value="Déclaration d'allergies"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/translation">
       <extension url="lang">
         <valueCode value="nl-BE"/>
       </extension>
-      <extension url="content">
-        <valueString value="."/>
-      </extension>
+      <extension url="content"/>
     </extension>
   </title>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-09-18T17:57:21+00:00"/>
+  <date value="2022-09-18T18:16:06+00:00"/>
   <publisher value="My Organization"/>
   <contact>
     <name value="My Organization"/>
@@ -84,7 +82,7 @@
           <valueCode value="fr-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Patient"/>
         </extension>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -92,7 +90,7 @@
           <valueCode value="nl-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Patient"/>
         </extension>
       </extension>
     </text>
@@ -107,7 +105,7 @@
             <valueCode value="fr-BE"/>
           </extension>
           <extension url="content">
-            <valueString value="."/>
+            <valueString value="Nom du patient"/>
           </extension>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -125,13 +123,13 @@
     </item>
     <item>
       <linkId value="patient-id"/>
-      <text value="Patient ID (SSIN)">
+      <text value="Patient ID">
         <extension url="http://hl7.org/fhir/StructureDefinition/translation">
           <extension url="lang">
             <valueCode value="fr-BE"/>
           </extension>
           <extension url="content">
-            <valueString value="."/>
+            <valueString value="ID du patient"/>
           </extension>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -139,7 +137,7 @@
             <valueCode value="nl-BE"/>
           </extension>
           <extension url="content">
-            <valueString value="."/>
+            <valueString value="Patiënt ID"/>
           </extension>
         </extension>
       </text>
@@ -163,7 +161,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Active"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -186,7 +184,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Inactive"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -209,7 +207,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Résolue"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -232,7 +230,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Non confirmée"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -255,7 +253,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Confirmée"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -278,7 +276,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Refutée"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -301,7 +299,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Erreur de saisie"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -323,7 +321,7 @@
             <valueCode value="fr-BE"/>
           </extension>
           <extension url="content">
-            <valueString value="."/>
+            <valueString value="Status clinique"/>
           </extension>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -347,7 +345,7 @@
             <valueCode value="fr-BE"/>
           </extension>
           <extension url="content">
-            <valueString value="."/>
+            <valueString value="État de vérification"/>
           </extension>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -380,7 +378,7 @@
           <valueCode value="fr-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Allergie ou Intolérance"/>
         </extension>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -404,7 +402,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Allergie"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -427,7 +425,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Intolérance"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -450,7 +448,7 @@
           <valueCode value="fr-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Médicament"/>
         </extension>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -474,7 +472,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Allergie alimentaire"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -497,7 +495,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Allergie médicamenteuse"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -520,7 +518,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Allergie environmentale"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -543,7 +541,7 @@
               <valueCode value="fr-BE"/>
             </extension>
             <extension url="content">
-              <valueString value="."/>
+              <valueString value="Allergie ou intolérance biologique"/>
             </extension>
           </extension>
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -564,7 +562,7 @@
     <type value="choice"/>
     <required value="false"/>
     <repeats value="false"/>
-    <answerValueSet value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-allergyintolerancecode"/>
+    <answerValueSet value="http://example.com/fhir/example/ValueSet/be-allergyintolerancecode"/>
   </item>
   <item>
     <linkId value="recorded"/>
@@ -574,7 +572,7 @@
           <valueCode value="fr-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Saisie"/>
         </extension>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -598,7 +596,7 @@
           <valueCode value="fr-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Date de saisie"/>
         </extension>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -622,7 +620,7 @@
           <valueCode value="fr-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Enregistreur"/>
         </extension>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -646,7 +644,7 @@
           <valueCode value="fr-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Rapporteur"/>
         </extension>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -670,7 +668,7 @@
           <valueCode value="fr-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Note"/>
         </extension>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -694,7 +692,7 @@
           <valueCode value="fr-BE"/>
         </extension>
         <extension url="content">
-          <valueString value="."/>
+          <valueString value="Réaction"/>
         </extension>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -717,7 +715,7 @@
             <valueCode value="fr-BE"/>
           </extension>
           <extension url="content">
-            <valueString value="."/>
+            <valueString value="Maniféstation"/>
           </extension>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -742,7 +740,7 @@
             <valueCode value="fr-BE"/>
           </extension>
           <extension url="content">
-            <valueString value="."/>
+            <valueString value="Route d'éxposition"/>
           </extension>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -767,7 +765,7 @@
             <valueCode value="fr-BE"/>
           </extension>
           <extension url="content">
-            <valueString value="."/>
+            <valueString value="Note"/>
           </extension>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/translation">

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="be-causativeagent"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Fully specified name</b></td><td><b>English (English, en)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td><td><b>French (Belgium) (fr)</b></td></tr><tr><td><a href="http://snomed.info/id/264295007">264295007</a></td><td>Cow's milk protein (substance)</td><td>Cow's milk protein (substance)</td><td>Cow's milk protein</td><td>koemelkeiwit</td><td>protéine de lait de vache</td></tr><tr><td><a href="http://snomed.info/id/230034002">230034002</a></td><td>Nuts and seeds (substance)</td><td>Nuts and seeds (substance)</td><td>Nuts and seeds</td><td>noten en zaden</td><td>noix et graines</td></tr><tr><td><a href="http://snomed.info/id/7791007">7791007</a></td><td>Soy protein (substance)</td><td>Soy protein (substance)</td><td>Soy protein</td><td>soja-eiwit</td><td>protéine de soya</td></tr><tr><td><a href="http://snomed.info/id/89707004">89707004</a></td><td>Sesame oil (substance)</td><td>Sesame oil (substance)</td><td>Sesame oil</td><td>sesamolie</td><td>huile de sésame</td></tr><tr><td><a href="http://snomed.info/id/260167008">260167008</a></td><td>Sesame seed (substance)</td><td>Sesame seed (substance)</td><td>Sesame seed</td><td>sesamzaad</td><td>graine de sésame</td></tr><tr><td><a href="http://snomed.info/id/735029006">735029006</a></td><td>Shellfish (substance)</td><td>Shellfish (substance)</td><td>Shellfish</td><td>schaal- en schelpdieren</td><td>coquillages et crustacés</td></tr><tr><td><a href="http://snomed.info/id/710179004">710179004</a></td><td>Lupine seed (substance)</td><td>Lupine seed (substance)</td><td>Lupine seed</td><td>lupinezaad</td><td>graine de lupin</td></tr><tr><td><a href="http://snomed.info/id/735977009">735977009</a></td><td>Marine crustacean (substance)</td><td>Marine crustacean (substance)</td><td>Marine crustacean</td><td>schaaldieren</td><td>crustacés</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent"/>
+  <version value="1.0.0"/>
+  <name value="BeCausativeAgent"/>
+  <status value="active"/>
+  <date value="2022-09-18T18:16:06+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Codes as communicated by NIHDI and the FPS Terminology Center differentiating types of causative agent. This valueset supports the Belgian federal FHIR profiling effort."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="264295007"/>
+        <display value="Cow's milk protein (substance)"/>
+        <designation>
+          <use>
+            <system value="http://snomed.ct/info"/>
+            <code value="900000000000003001"/>
+            <display value="Fully specified name"/>
+          </use>
+          <value value="Cow's milk protein (substance)"/>
+        </designation>
+        <designation>
+          <language value="en"/>
+          <value value="Cow's milk protein"/>
+        </designation>
+        <designation>
+          <language value="nl-BE"/>
+          <value value="koemelkeiwit"/>
+        </designation>
+        <designation>
+          <language value="fr-BE"/>
+          <value value="protéine de lait de vache"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="230034002"/>
+        <display value="Nuts and seeds (substance)"/>
+        <designation>
+          <use>
+            <system value="http://snomed.ct/info"/>
+            <code value="900000000000003001"/>
+            <display value="Fully specified name"/>
+          </use>
+          <value value="Nuts and seeds (substance)"/>
+        </designation>
+        <designation>
+          <language value="en"/>
+          <value value="Nuts and seeds"/>
+        </designation>
+        <designation>
+          <language value="nl-BE"/>
+          <value value="noten en zaden"/>
+        </designation>
+        <designation>
+          <language value="fr-BE"/>
+          <value value="noix et graines"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="7791007"/>
+        <display value="Soy protein (substance)"/>
+        <designation>
+          <use>
+            <system value="http://snomed.ct/info"/>
+            <code value="900000000000003001"/>
+            <display value="Fully specified name"/>
+          </use>
+          <value value="Soy protein (substance)"/>
+        </designation>
+        <designation>
+          <language value="en"/>
+          <value value="Soy protein"/>
+        </designation>
+        <designation>
+          <language value="nl-BE"/>
+          <value value="soja-eiwit"/>
+        </designation>
+        <designation>
+          <language value="fr-BE"/>
+          <value value="protéine de soya"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="89707004"/>
+        <display value="Sesame oil (substance)"/>
+        <designation>
+          <use>
+            <system value="http://snomed.ct/info"/>
+            <code value="900000000000003001"/>
+            <display value="Fully specified name"/>
+          </use>
+          <value value="Sesame oil (substance)"/>
+        </designation>
+        <designation>
+          <language value="en"/>
+          <value value="Sesame oil"/>
+        </designation>
+        <designation>
+          <language value="nl-BE"/>
+          <value value="sesamolie"/>
+        </designation>
+        <designation>
+          <language value="fr-BE"/>
+          <value value="huile de sésame"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="260167008"/>
+        <display value="Sesame seed (substance)"/>
+        <designation>
+          <use>
+            <system value="http://snomed.ct/info"/>
+            <code value="900000000000003001"/>
+            <display value="Fully specified name"/>
+          </use>
+          <value value="Sesame seed (substance)"/>
+        </designation>
+        <designation>
+          <language value="en"/>
+          <value value="Sesame seed"/>
+        </designation>
+        <designation>
+          <language value="nl-BE"/>
+          <value value="sesamzaad"/>
+        </designation>
+        <designation>
+          <language value="fr-BE"/>
+          <value value="graine de sésame"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="735029006"/>
+        <display value="Shellfish (substance)"/>
+        <designation>
+          <use>
+            <system value="http://snomed.ct/info"/>
+            <code value="900000000000003001"/>
+            <display value="Fully specified name"/>
+          </use>
+          <value value="Shellfish (substance)"/>
+        </designation>
+        <designation>
+          <language value="en"/>
+          <value value="Shellfish"/>
+        </designation>
+        <designation>
+          <language value="nl-BE"/>
+          <value value="schaal- en schelpdieren"/>
+        </designation>
+        <designation>
+          <language value="fr-BE"/>
+          <value value="coquillages et crustacés"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="710179004"/>
+        <display value="Lupine seed (substance)"/>
+        <designation>
+          <use>
+            <system value="http://snomed.ct/info"/>
+            <code value="900000000000003001"/>
+            <display value="Fully specified name"/>
+          </use>
+          <value value="Lupine seed (substance)"/>
+        </designation>
+        <designation>
+          <language value="en"/>
+          <value value="Lupine seed"/>
+        </designation>
+        <designation>
+          <language value="nl-BE"/>
+          <value value="lupinezaad"/>
+        </designation>
+        <designation>
+          <language value="fr-BE"/>
+          <value value="graine de lupin"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="735977009"/>
+        <display value="Marine crustacean (substance)"/>
+        <designation>
+          <use>
+            <system value="http://snomed.ct/info"/>
+            <code value="900000000000003001"/>
+            <display value="Fully specified name"/>
+          </use>
+          <value value="Marine crustacean (substance)"/>
+        </designation>
+        <designation>
+          <language value="en"/>
+          <value value="Marine crustacean"/>
+        </designation>
+        <designation>
+          <language value="nl-BE"/>
+          <value value="schaaldieren"/>
+        </designation>
+        <designation>
+          <language value="fr-BE"/>
+          <value value="crustacés"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

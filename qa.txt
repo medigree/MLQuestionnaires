@@ -1,12 +1,14 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 8, warn = 14, info = 0
+err = 12, warn = 14, info = 8
 IG Publisher Version: 1.2.2
-Generated Sun Sep 18 17:57:36 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Sun Sep 18 18:16:24 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire : 5 / 13 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire : 7 / 13 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-be-allergyintolerancecode : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-be-causativeagent : 2 / 0 / 9
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
@@ -17,6 +19,8 @@ ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.c
 ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
 == fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json ==
 ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire: Rule que-2: 'The link ids for groups and questions must be unique within the questionnaire' Failed
+ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.title.extension[1].extension[1]: Rule ext-1: 'Must have either extensions or value[x], not both' Failed
+ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.title.extension[1].extension[1]: Extension.extension:content.value[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/translation)
 ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed (type: display; item: item=BackboneElement[5 children],item=BackboneElement[5 children]) (log:  (type: display; item: item=BackboneElement[5 children],item=BackboneElement[5 children]))
 ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1]: Rule que-5: 'Only 'choice' and 'open-choice' items can have answerValueSet' Failed
 ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1]: Rule que-6: 'Required and repeat aren't permitted for display items' Failed
@@ -34,3 +38,15 @@ WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[3].
 WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[3].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[3].answerOption[3].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[5]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
+== fsh-generated/resources/ValueSet-be-allergyintolerancecode.json ==
+== fsh-generated/resources/ValueSet-be-causativeagent.json ==
+ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-be-causativeagent.json - the canonical URL (http://example.com/fhir/example/ValueSet/be-causativeagent) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent)
+INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[0].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated
+INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[1].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated
+INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[2].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated
+INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[3].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated
+INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[4].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated
+INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[5].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated
+INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[6].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated
+INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[7].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-be-causativeagent: URL Mismatch http://example.com/fhir/example/ValueSet/be-causativeagent vs https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent
