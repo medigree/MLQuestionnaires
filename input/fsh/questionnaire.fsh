@@ -378,6 +378,7 @@ Description: "Codes as communicated by NIHDI and the FOD Terminology Center diff
 * ^version = "1.0.0"
 * ^status = #active
 * ^publisher = "eHealth Platform"
+* ^url = "https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode"
 * ^contact.name = "eHealth Platform"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "https://www.ehealth.fgov.be/standards/kmehr/en"
