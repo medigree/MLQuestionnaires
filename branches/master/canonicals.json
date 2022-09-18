@@ -7,10 +7,10 @@
     "name": "ExampleIG"
   },
   {
-    "id": "questionnaire-ee",
+    "id": "allergy-intolerance-questionnaire",
     "type": "Questionnaire",
-    "url": "http://example.com/fhir/example/Questionnaire/questionnaire-ee",
+    "url": "http://example.com/fhir/example/Questionnaire/allergy-intolerance-questionnaire",
     "version": "1.0.0",
-    "name": "questionnaire-ee"
+    "name": "AllergyIntoleranceQuestionnaire"
   }
 ]

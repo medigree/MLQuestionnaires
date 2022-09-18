@@ -6,8 +6,11 @@
   "extensions": [],
   "profiles": {},
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
+      "Questionnaire.item"
+    ],
     "http://hl7.org/fhir/StructureDefinition/translation": [
-      "Questionnaire.item.item.item.text",
+      "Questionnaire.item.answerOption.valueCoding.display",
       "Questionnaire.item.item.text",
       "Questionnaire.item.text",
       "Questionnaire.title"

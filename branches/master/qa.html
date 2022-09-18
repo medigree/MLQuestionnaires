@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 3, warn = 2, info = 0, 1 -->
+<!-- broken links = errors = 8, warn = 14, info = 0, 1 -->
 <head>
   <title>ExampleIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for ExampleIG</h1>
- <p>Generated Sat Sep 17 19:04:41 UTC 2022, FHIR version 4.0.1 for my-ig#1.0.0 (canonical = <a href="http://example.com/fhir/example">http://example.com/fhir/example</a> (<a href="http://example.com/fhir/example/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Sun Sep 18 17:57:36 UTC 2022, FHIR version 4.0.1 for my-ig#1.0.0 (canonical = <a href="http://example.com/fhir/example">http://example.com/fhir/example</a> (<a href="http://example.com/fhir/example/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.2</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = my-ig, Canonical = http://example.com/fhir/example</td></tr>
@@ -53,9 +53,9 @@
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.com/fhir/example (Problem #1 with package-list.json at http://example.com/fhir/example: Invalid HTTP response 404 from http://example.com/fhir/example/package-list.json?nocache=1663441469702 (Not Found) (content in /tmp/fhir-http-3.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.com/fhir/example (Problem #1 with package-list.json at http://example.com/fhir/example: Invalid HTTP response 404 from http://example.com/fhir/example/package-list.json?nocache=1663523841615 (Not Found) (content in /tmp/fhir-http-3.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 3, warn = 2, info = 0, broken links = 1</td></tr>
+ <tr><td>Summary:</td><td> errors = 8, warn = 14, info = 0, broken links = 1</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -67,8 +67,8 @@
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_fsh-generated_resources_ImplementationGuide-my-ig"><b>/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-ee"><b>/github/workspace/fsh-generated/resources/Questionnaire-questionnaire-ee</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-allergy-intolerance-questionnaire"><b>/github/workspace/fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire</b></a></td><td><b>5</b></td><td><b>13</b></td><td><b>0</b></td>
    </tr>
 </table>
 <hr/>
@@ -80,7 +80,7 @@
      <td><b>ImplementationGuide.url</b></td><td><b>warning</b></td><td title=""><b>The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="Questionnaire-questionnaire-ee-form.html">output/Questionnaire-questionnaire-ee-form.html</a></b></td><td><b>error</b></td><td><b>Unable to read attribute on &lt;div&gt; at line 215 column 71</b></td>
+     <td><b><a href="Questionnaire-allergy-intolerance-questionnaire-form.html">output/Questionnaire-allergy-intolerance-questionnaire-form.html</a></b></td><td><b>error</b></td><td><b>Unable to read attribute on &lt;div&gt; at line 215 column 71</b></td>
    </tr>
 </table>
 <hr/>
@@ -102,16 +102,67 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-ee"> </a>
-<h2><a href="Questionnaire-questionnaire-ee.html">fsh-generated/resources/Questionnaire-questionnaire-ee.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+<a name="_github_workspace_fsh-generated_resources_Questionnaire-allergy-intolerance-questionnaire"> </a>
+<h2><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire</b></td><td><b>error</b></td><td title="Rule que-2: 'The link ids for groups and questions must be unique within the questionnaire' Failed"><b>Rule que-2: 'The link ids for groups and questions must be unique within the questionnaire' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1]</b></td><td><b>error</b></td><td title="Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed (type: display; item: item=BackboneElement[5 children],item=BackboneElement[5 children]) (log:  (type: display; item: item=BackboneElement[5 children],item=BackboneElement[5 children]))"><b>Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed (type: display; item: item=BackboneElement[5 children],item=BackboneElement[5 children]) (log:  (type: display; item: item=BackboneElement[5 children],item=BackboneElement[5 children]))</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1]</b></td><td><b>error</b></td><td title="Rule que-5: 'Only 'choice' and 'open-choice' items can have answerValueSet' Failed"><b>Rule que-5: 'Only 'choice' and 'open-choice' items can have answerValueSet' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[1]</b></td><td><b>error</b></td><td title="Rule que-6: 'Required and repeat aren't permitted for display items' Failed"><b>Rule que-6: 'Required and repeat aren't permitted for display items' Failed</b></td>
+   </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire</b></td><td><b>warning</b></td><td title="Rule que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>Rule que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+     <td><b>Questionnaire.item[1].answerOption[0].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[1].answerOption[1].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[1].answerOption[2].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[1].answerOption[3].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[1].answerOption[4].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[1].answerOption[5].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[1].answerOption[6].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[2].answerOption[0].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[2].answerOption[1].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[3].answerOption[0].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[3].answerOption[1].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[3].answerOption[2].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[3].answerOption[3].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Questionnaire.item[5]</b></td><td><b>error</b></td><td title="Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed"><b>Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed</b></td>
    </tr>
 </table>
 <a name="suppressed"> </a>
@@ -132,6 +183,50 @@
  <table class="grid">
    <tr style="background-color: #ffeeee">
      <td><a href="ImplementationGuide-my-ig.html">fsh-generated/resources/ImplementationGuide-my-ig.json</a></td><td><b>Resource id/url mismatch: my-ig/http://example.com/fhir/example</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="TERMINOLOGY_TX_SYSTEM_NO_CODE"> </a>
+<h2>TERMINOLOGY_TX_SYSTEM_NO_CODE</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-allergy-intolerance-questionnaire.html">fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
    </tr>
 </table>
 </body>
