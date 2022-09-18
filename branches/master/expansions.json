@@ -1,12 +1,12 @@
 {
   "resourceType" : "Bundle",
-  "id" : "741d5083-4eeb-48e0-a230-ba36d7d5ccb8",
+  "id" : "1086bd42-ead5-4134-868a-7f895482e6bb",
   "meta" : {
-    "lastUpdated" : "2022-09-18T18:16:06.344+00:00"
+    "lastUpdated" : "2022-09-18T20:06:10.743+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/be-allergyintolerancecode",
+    "fullUrl" : "https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "be-allergyintolerancecode",
@@ -14,11 +14,11 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"ValueSet-be-causativeagent.html\">BeCausativeAgent v1.0.0 (ValueSet)</a></li><li>SNOMED CT International edition 31-Jul 2022</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-264295007\"> </a>  <a href=\"http://snomed.info/id/264295007\">264295007</a></td><td>http://snomed.info/sct</td><td>Cow's milk protein (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-230034002\"> </a>  <a href=\"http://snomed.info/id/230034002\">230034002</a></td><td>http://snomed.info/sct</td><td>Nuts and seeds (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7791007\"> </a>  <a href=\"http://snomed.info/id/7791007\">7791007</a></td><td>http://snomed.info/sct</td><td>Soy protein (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-89707004\"> </a>  <a href=\"http://snomed.info/id/89707004\">89707004</a></td><td>http://snomed.info/sct</td><td>Sesame oil (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260167008\"> </a>  <a href=\"http://snomed.info/id/260167008\">260167008</a></td><td>http://snomed.info/sct</td><td>Sesame seed (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-735029006\"> </a>  <a href=\"http://snomed.info/id/735029006\">735029006</a></td><td>http://snomed.info/sct</td><td>Shellfish (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-710179004\"> </a>  <a href=\"http://snomed.info/id/710179004\">710179004</a></td><td>http://snomed.info/sct</td><td>Lupine seed (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-735977009\"> </a>  <a href=\"http://snomed.info/id/735977009\">735977009</a></td><td>http://snomed.info/sct</td><td>Marine crustacean (substance)</td></tr></table></div>"
       },
-      "url" : "http://example.com/fhir/example/ValueSet/be-allergyintolerancecode",
+      "url" : "https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode",
       "version" : "1.0.0",
       "name" : "BeAllergyIntoleranceCode",
       "status" : "active",
-      "date" : "2022-09-18T18:16:06+00:00",
+      "date" : "2022-09-18T20:06:10+00:00",
       "publisher" : "My Organization",
       "contact" : [{
         "name" : "My Organization",
@@ -48,8 +48,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9e36e396-0982-45b8-b68c-7694a1aa9a7b",
-        "timestamp" : "2022-09-18T18:16:18+00:00",
+        "identifier" : "urn:uuid:de85143d-9ae3-4557-bfae-fa03d0039176",
+        "timestamp" : "2022-09-18T20:06:20+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -127,7 +127,7 @@
       "version" : "1.0.0",
       "name" : "BeCausativeAgent",
       "status" : "active",
-      "date" : "2022-09-18T18:16:06+00:00",
+      "date" : "2022-09-18T20:06:10+00:00",
       "publisher" : "My Organization",
       "contact" : [{
         "name" : "My Organization",
@@ -157,8 +157,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:32f8d8c0-a56e-4228-8b5e-980a88258b47",
-        "timestamp" : "2022-09-18T18:16:19+00:00",
+        "identifier" : "urn:uuid:c85ca6c3-f43b-48ee-8d27-8c3d0d804558",
+        "timestamp" : "2022-09-18T20:06:21+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",

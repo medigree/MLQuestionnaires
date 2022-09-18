@@ -5,11 +5,11 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Import all the codes that are contained in <a href=\"ValueSet-be-causativeagent.html\">https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent</a></li></ul></div>"
   },
-  "url": "http://example.com/fhir/example/ValueSet/be-allergyintolerancecode",
+  "url": "https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode",
   "version": "1.0.0",
   "name": "BeAllergyIntoleranceCode",
   "status": "active",
-  "date": "2022-09-18T18:16:06+00:00",
+  "date": "2022-09-18T20:06:10+00:00",
   "publisher": "My Organization",
   "contact": [
     {

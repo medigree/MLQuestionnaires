@@ -46,7 +46,7 @@
   </title>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-09-18T18:16:06+00:00"/>
+  <date value="2022-09-18T20:06:10+00:00"/>
   <publisher value="My Organization"/>
   <contact>
     <name value="My Organization"/>
@@ -562,7 +562,7 @@
     <type value="choice"/>
     <required value="false"/>
     <repeats value="false"/>
-    <answerValueSet value="http://example.com/fhir/example/ValueSet/be-allergyintolerancecode"/>
+    <answerValueSet value="https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode"/>
   </item>
   <item>
     <linkId value="recorded"/>

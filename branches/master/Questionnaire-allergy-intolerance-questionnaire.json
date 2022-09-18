@@ -43,7 +43,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-09-18T18:16:06+00:00",
+  "date": "2022-09-18T20:06:10+00:00",
   "publisher": "My Organization",
   "contact": [
     {
@@ -845,7 +845,7 @@
       "type": "choice",
       "required": false,
       "repeats": false,
-      "answerValueSet": "http://example.com/fhir/example/ValueSet/be-allergyintolerancecode"
+      "answerValueSet": "https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode"
     },
     {
       "linkId": "recorded",
