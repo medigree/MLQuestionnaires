@@ -360,10 +360,10 @@
           }
         ],
         "reference": {
-          "reference": "Questionnaire/questionnaire-ee"
+          "reference": "Questionnaire/allergy-intolerance-questionnaire"
         },
-        "name": "Product data entry form",
-        "description": "Product data entry form",
+        "name": "Questionnaire for Allergy / Intolerance reporting",
+        "description": "Questionnaire for Allergy / Intolerance reporting",
         "exampleBoolean": true
       }
     ],

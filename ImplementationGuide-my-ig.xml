@@ -230,10 +230,10 @@
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
-        <reference value="Questionnaire/questionnaire-ee"/>
+        <reference value="Questionnaire/allergy-intolerance-questionnaire"/>
       </reference>
-      <name value="Product data entry form"/>
-      <description value="Product data entry form"/>
+      <name value="Questionnaire for Allergy / Intolerance reporting"/>
+      <description value="Questionnaire for Allergy / Intolerance reporting"/>
       <exampleBoolean value="true"/>
     </resource>
     <page>

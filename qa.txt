@@ -1,19 +1,36 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 3, warn = 2, info = 0
+err = 8, warn = 14, info = 0
 IG Publisher Version: 1.2.2
-Generated Sat Sep 17 19:04:41 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Sun Sep 18 17:57:36 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-questionnaire-ee : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire : 5 / 13 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-ERROR: /github/workspace/output/Questionnaire-questionnaire-ee-form.html: Unable to read attribute on <div> at line 215 column 71
+ERROR: /github/workspace/output/Questionnaire-allergy-intolerance-questionnaire-form.html: Unable to read attribute on <div> at line 215 column 71
 == fsh-generated/resources/ImplementationGuide-my-ig.json ==
 ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
 ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
-== fsh-generated/resources/Questionnaire-questionnaire-ee.json ==
-WARNING: Questionnaire/questionnaire-ee: Questionnaire: Rule que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire.json ==
+ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire: Rule que-2: 'The link ids for groups and questions must be unique within the questionnaire' Failed
+ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed (type: display; item: item=BackboneElement[5 children],item=BackboneElement[5 children]) (log:  (type: display; item: item=BackboneElement[5 children],item=BackboneElement[5 children]))
+ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1]: Rule que-5: 'Only 'choice' and 'open-choice' items can have answerValueSet' Failed
+ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1]: Rule que-6: 'Required and repeat aren't permitted for display items' Failed
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1].answerOption[3].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1].answerOption[4].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1].answerOption[5].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[1].answerOption[6].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[2].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[2].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[3].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[3].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[3].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[3].answerOption[3].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[5]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
