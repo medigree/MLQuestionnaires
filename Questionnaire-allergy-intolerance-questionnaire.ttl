@@ -48,7 +48,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-09-18T18:16:06+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-09-18T20:06:10+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "My Organization"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -779,8 +779,8 @@
      fhir:Questionnaire.item.required [ fhir:value "false"^^xsd:boolean ];
      fhir:Questionnaire.item.repeats [ fhir:value "false"^^xsd:boolean ];
      fhir:Questionnaire.item.answerValueSet [
-       fhir:value "http://example.com/fhir/example/ValueSet/be-allergyintolerancecode";
-       fhir:link <http://example.com/fhir/example/ValueSet/be-allergyintolerancecode>
+       fhir:value "https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode";
+       fhir:link <https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode>
      ]
   ], [
      fhir:index 5;

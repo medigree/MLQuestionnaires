@@ -1,13 +1,13 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 12, warn = 14, info = 8
+err = 14, warn = 14, info = 8
 IG Publisher Version: 1.2.2
-Generated Sun Sep 18 18:16:24 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Sun Sep 18 20:06:26 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-allergy-intolerance-questionnaire : 7 / 13 / 1
- /github/workspace/fsh-generated/resources/ValueSet-be-allergyintolerancecode : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-be-allergyintolerancecode : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-be-causativeagent : 2 / 0 / 9
 </table>
 == n/a ==
@@ -39,6 +39,8 @@ WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[3].
 WARNING: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[3].answerOption[3].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 ERROR: Questionnaire/allergy-intolerance-questionnaire: Questionnaire.item[5]: Rule que-1: 'Group items must have nested items, display items cannot have nested items' Failed
 == fsh-generated/resources/ValueSet-be-allergyintolerancecode.json ==
+ERROR: ValueSet.where(url = 'https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-be-allergyintolerancecode.json - the canonical URL (http://example.com/fhir/example/ValueSet/be-allergyintolerancecode) does not match the URL (https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode)
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-be-allergyintolerancecode: URL Mismatch http://example.com/fhir/example/ValueSet/be-allergyintolerancecode vs https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode
 == fsh-generated/resources/ValueSet-be-causativeagent.json ==
 ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-be-causativeagent.json - the canonical URL (http://example.com/fhir/example/ValueSet/be-causativeagent) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent)
 INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[0].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated

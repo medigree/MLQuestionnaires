@@ -16,7 +16,7 @@
   {
     "id": "be-allergyintolerancecode",
     "type": "ValueSet",
-    "url": "http://example.com/fhir/example/ValueSet/be-allergyintolerancecode",
+    "url": "https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode",
     "version": "1.0.0",
     "name": "BeAllergyIntoleranceCode"
   },
