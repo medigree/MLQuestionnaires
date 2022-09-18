@@ -1,9 +1,388 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="224ad14c-541f-4ad4-b0c1-ed38e66dedba"/>
+  <id value="741d5083-4eeb-48e0-a230-ba36d7d5ccb8"/>
   <meta>
-    <lastUpdated value="2022-09-18T17:57:21.824+00:00"/>
+    <lastUpdated value="2022-09-18T18:16:06.344+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/be-allergyintolerancecode"/>
+    <resource>
+      <ValueSet>
+        <id value="be-allergyintolerancecode"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 8 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="ValueSet-be-causativeagent.html">BeCausativeAgent v1.0.0 (ValueSet)</a>
+                </li>
+                <li>SNOMED CT International edition 31-Jul 2022</li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-264295007"> </a>  
+                  <a href="http://snomed.info/id/264295007">264295007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Cow's milk protein (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-230034002"> </a>  
+                  <a href="http://snomed.info/id/230034002">230034002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Nuts and seeds (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-7791007"> </a>  
+                  <a href="http://snomed.info/id/7791007">7791007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Soy protein (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-89707004"> </a>  
+                  <a href="http://snomed.info/id/89707004">89707004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sesame oil (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-260167008"> </a>  
+                  <a href="http://snomed.info/id/260167008">260167008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sesame seed (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-735029006"> </a>  
+                  <a href="http://snomed.info/id/735029006">735029006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Shellfish (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-710179004"> </a>  
+                  <a href="http://snomed.info/id/710179004">710179004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lupine seed (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-735977009"> </a>  
+                  <a href="http://snomed.info/id/735977009">735977009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Marine crustacean (substance)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/be-allergyintolerancecode"/>
+        <version value="1.0.0"/>
+        <name value="BeAllergyIntoleranceCode"/>
+        <status value="active"/>
+        <date value="2022-09-18T18:16:06+00:00"/>
+        <publisher value="My Organization"/>
+        <contact>
+          <name value="My Organization"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://example.com/committees"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="my-group@example.com"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Bob Smith"/>
+          <telecom>
+            <system value="email"/>
+            <value value="bobsmith@example.com"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Codes as communicated by NIHDI and the FOD Terminology Center differentiating types of allergy intolerance codes. This valueset supports the Belgian federal FHIR profiling effort."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:9e36e396-0982-45b8-b68c-7694a1aa9a7b"/>
+          <timestamp value="2022-09-18T18:16:18+00:00"/>
+          <total value="8"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent|1.0.0"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="264295007"/>
+            <display value="Cow's milk protein (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="230034002"/>
+            <display value="Nuts and seeds (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7791007"/>
+            <display value="Soy protein (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="89707004"/>
+            <display value="Sesame oil (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="260167008"/>
+            <display value="Sesame seed (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="735029006"/>
+            <display value="Shellfish (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="710179004"/>
+            <display value="Lupine seed (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="735977009"/>
+            <display value="Marine crustacean (substance)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent"/>
+    <resource>
+      <ValueSet>
+        <id value="be-causativeagent"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 8 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-264295007"> </a>  
+                  <a href="http://snomed.info/id/264295007">264295007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Cow's milk protein (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-230034002"> </a>  
+                  <a href="http://snomed.info/id/230034002">230034002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Nuts and seeds (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-7791007"> </a>  
+                  <a href="http://snomed.info/id/7791007">7791007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Soy protein (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-89707004"> </a>  
+                  <a href="http://snomed.info/id/89707004">89707004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sesame oil (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-260167008"> </a>  
+                  <a href="http://snomed.info/id/260167008">260167008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Sesame seed (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-735029006"> </a>  
+                  <a href="http://snomed.info/id/735029006">735029006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Shellfish (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-710179004"> </a>  
+                  <a href="http://snomed.info/id/710179004">710179004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lupine seed (substance)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-735977009"> </a>  
+                  <a href="http://snomed.info/id/735977009">735977009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Marine crustacean (substance)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent"/>
+        <version value="1.0.0"/>
+        <name value="BeCausativeAgent"/>
+        <status value="active"/>
+        <date value="2022-09-18T18:16:06+00:00"/>
+        <publisher value="My Organization"/>
+        <contact>
+          <name value="My Organization"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://example.com/committees"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="my-group@example.com"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Bob Smith"/>
+          <telecom>
+            <system value="email"/>
+            <value value="bobsmith@example.com"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <description value="Codes as communicated by NIHDI and the FPS Terminology Center differentiating types of causative agent. This valueset supports the Belgian federal FHIR profiling effort."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:32f8d8c0-a56e-4228-8b5e-980a88258b47"/>
+          <timestamp value="2022-09-18T18:16:19+00:00"/>
+          <total value="8"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="264295007"/>
+            <display value="Cow's milk protein (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="230034002"/>
+            <display value="Nuts and seeds (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7791007"/>
+            <display value="Soy protein (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="89707004"/>
+            <display value="Sesame oil (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="260167008"/>
+            <display value="Sesame seed (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="735029006"/>
+            <display value="Shellfish (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="710179004"/>
+            <display value="Lupine seed (substance)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="735977009"/>
+            <display value="Marine crustacean (substance)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

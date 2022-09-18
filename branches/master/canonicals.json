@@ -12,5 +12,19 @@
     "url": "http://example.com/fhir/example/Questionnaire/allergy-intolerance-questionnaire",
     "version": "1.0.0",
     "name": "AllergyIntoleranceQuestionnaire"
+  },
+  {
+    "id": "be-allergyintolerancecode",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/be-allergyintolerancecode",
+    "version": "1.0.0",
+    "name": "BeAllergyIntoleranceCode"
+  },
+  {
+    "id": "be-causativeagent",
+    "type": "ValueSet",
+    "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent",
+    "version": "1.0.0",
+    "name": "BeCausativeAgent"
   }
 ]
