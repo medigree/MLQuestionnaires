@@ -16,7 +16,7 @@ RuleSet: VSDesignation(language, text)
 * ^expansion.contains[=].designation[=].value = "{text}"
 
 RuleSet: ItemControl(code)
-* extension[+].url = "http://hl7.org/fhir/questionnaire-item-control"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * extension[=].valueCodeableConcept = http://hl7.org/fhir/questionnaire-item-control#{code}
 
 
