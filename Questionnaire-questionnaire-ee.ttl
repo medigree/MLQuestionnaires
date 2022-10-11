@@ -1,0 +1,469 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/Questionnaire/questionnaire-ee> a fhir:Questionnaire;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "questionnaire-ee"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Structure</b><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The linkId for the item\">LinkId</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Text for the item\">Text</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the itemcan appear in the instance\">Cardinality</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The type of the item\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the item\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_q_root.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"QuestionnaireRoot\" class=\"hierarchy\"/> questionnaire-ee</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Questionnaire</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">http://example.com/fhir/example/Questionnaire/questionnaire-ee#1.0.0</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" id=\"item.MedicinalProduct\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-group.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Group\" class=\"hierarchy\"/> MedicinalProduct</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Product</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group\">group</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck011.png)\" id=\"item.identifier\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-group.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Group\" class=\"hierarchy\"/> identifier</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identifier</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group\">group</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0110.png)\" id=\"item.identifier_system\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-string.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"String\" class=\"hierarchy\"/> identifier_system</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">System</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0100.png)\" id=\"item.identifier_value\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-string.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"String\" class=\"hierarchy\"/> identifier_value</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Value</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" id=\"item.color\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> color</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Color</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.color\">3 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)\" id=\"item.size\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> size</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Size</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Value Set: <a href=\"ValueSet-vs-product-size.html\">Product-size</a></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table><hr/><p><b>Option Sets</b></p><a name=\"opt-item.color\"> </a><p><b>Answer options for color</b></p><ul><li style=\"font-size: 11px\">null#r (&quot;Red&quot;)</li><li style=\"font-size: 11px\">null#r (&quot;Blue&quot;)</li><li style=\"font-size: 11px\">null#r (&quot;Green&quot;)</li></ul></div>"
+  ];
+  fhir:DomainResource.contained [
+     a fhir:ValueSet;
+     fhir:index 0;
+     fhir:Resource.id [ fhir:value "vs-product-size" ];
+     fhir:ValueSet.url [ fhir:value "http://example.com/fhir/example/ValueSet/vs-product-size" ];
+     fhir:ValueSet.version [ fhir:value "1.0.0" ];
+     fhir:ValueSet.name [ fhir:value "VSProductSize" ];
+     fhir:ValueSet.title [ fhir:value "Product-size" ];
+     fhir:ValueSet.status [ fhir:value "active" ];
+     fhir:ValueSet.description [ fhir:value "Product size" ];
+     fhir:ValueSet.expansion [
+       fhir:ValueSet.expansion.contains [
+         fhir:index 0;
+         fhir:ValueSet.expansion.contains.code [ fhir:value "s" ];
+         fhir:ValueSet.expansion.contains.display [ fhir:value "Small" ];
+         fhir:ValueSet.expansion.contains.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Petit" ]
+         ], [
+           fhir:index 1;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "es" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Pequeño" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.expansion.contains.code [ fhir:value "m" ];
+         fhir:ValueSet.expansion.contains.display [ fhir:value "Medium" ];
+         fhir:ValueSet.expansion.contains.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Moyen" ]
+         ], [
+           fhir:index 1;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "es" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Medio" ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.expansion.contains.code [ fhir:value "l" ];
+         fhir:ValueSet.expansion.contains.display [ fhir:value "Large" ];
+         fhir:ValueSet.expansion.contains.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Large" ]
+         ], [
+           fhir:index 1;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "es" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Grande" ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.expansion.contains.code [ fhir:value "xl" ];
+         fhir:ValueSet.expansion.contains.display [ fhir:value "Xtra Large" ];
+         fhir:ValueSet.expansion.contains.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Très Large" ]
+         ], [
+           fhir:index 1;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "es" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Muy grande" ]
+         ]
+       ]
+     ]
+  ];
+  fhir:Questionnaire.url [ fhir:value "http://example.com/fhir/example/Questionnaire/questionnaire-ee"];
+  fhir:Questionnaire.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://www.ee.org" ];
+     fhir:Identifier.value [ fhir:value "questionnaire-ee" ]
+  ];
+  fhir:Questionnaire.version [ fhir:value "1.0.0"];
+  fhir:Questionnaire.name [ fhir:value "questionnaire-ee"];
+  fhir:Questionnaire.title [
+     fhir:value "Product attributes";
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "lang" ];
+         fhir:Extension.valueCode [ fhir:value "fr" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "content" ];
+         fhir:Extension.valueString [ fhir:value "Données du produit" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "lang" ];
+         fhir:Extension.valueCode [ fhir:value "es" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "content" ];
+         fhir:Extension.valueString [ fhir:value "Datos del producto" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+     ]
+  ];
+  fhir:Questionnaire.status [ fhir:value "active"];
+  fhir:Questionnaire.date [ fhir:value "2022-10-11T19:14:51+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.publisher [ fhir:value "My Organization"];
+  fhir:Questionnaire.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "My Organization" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://example.com/committees" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "my-group@example.com" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Bob Smith" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "bobsmith@example.com" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:Questionnaire.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ];
+       fhir:Coding.display [ fhir:value "World" ]
+     ]
+  ];
+  fhir:Questionnaire.item [
+     fhir:index 0;
+     fhir:Questionnaire.item.linkId [ fhir:value "MedicinalProduct" ];
+     fhir:Questionnaire.item.text [
+       fhir:value "Product";
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "lang" ];
+           fhir:Extension.valueCode [ fhir:value "es" ]
+         ], [
+           fhir:index 1;
+           fhir:Extension.url [ fhir:value "content" ];
+           fhir:Extension.valueString [ fhir:value "Producto" ]
+         ];
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+       ], [
+         fhir:index 1;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "lang" ];
+           fhir:Extension.valueCode [ fhir:value "fr" ]
+         ], [
+           fhir:index 1;
+           fhir:Extension.url [ fhir:value "content" ];
+           fhir:Extension.valueString [ fhir:value "Produit" ]
+         ];
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+       ]
+     ];
+     fhir:Questionnaire.item.type [ fhir:value "group" ];
+     fhir:Questionnaire.item.required [ fhir:value "false"^^xsd:boolean ];
+     fhir:Questionnaire.item.repeats [ fhir:value "true"^^xsd:boolean ];
+     fhir:Questionnaire.item.item [
+       fhir:index 0;
+       fhir:Questionnaire.item.linkId [ fhir:value "identifier" ];
+       fhir:Questionnaire.item.text [
+         fhir:value "Identifier";
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "lang" ];
+             fhir:Extension.valueCode [ fhir:value "fr" ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "content" ];
+             fhir:Extension.valueString [ fhir:value "identifiant produit" ]
+           ];
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+         ], [
+           fhir:index 1;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "lang" ];
+             fhir:Extension.valueCode [ fhir:value "es" ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "content" ];
+             fhir:Extension.valueString [ fhir:value "identifcador de producto" ]
+           ];
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+         ]
+       ];
+       fhir:Questionnaire.item.type [ fhir:value "group" ];
+       fhir:Questionnaire.item.required [ fhir:value "false"^^xsd:boolean ];
+       fhir:Questionnaire.item.repeats [ fhir:value "true"^^xsd:boolean ];
+       fhir:Questionnaire.item.item [
+         fhir:index 0;
+         fhir:Questionnaire.item.linkId [ fhir:value "identifier_system" ];
+         fhir:Questionnaire.item.text [
+           fhir:value "System";
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Extension.url [ fhir:value "lang" ];
+               fhir:Extension.valueCode [ fhir:value "fr" ]
+             ], [
+               fhir:index 1;
+               fhir:Extension.url [ fhir:value "content" ];
+               fhir:Extension.valueString [ fhir:value "système d'identification" ]
+             ];
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+           ], [
+             fhir:index 1;
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Extension.url [ fhir:value "lang" ];
+               fhir:Extension.valueCode [ fhir:value "es" ]
+             ], [
+               fhir:index 1;
+               fhir:Extension.url [ fhir:value "content" ];
+               fhir:Extension.valueString [ fhir:value "systema de identificación" ]
+             ];
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+           ]
+         ];
+         fhir:Questionnaire.item.type [ fhir:value "string" ];
+         fhir:Questionnaire.item.required [ fhir:value "true"^^xsd:boolean ];
+         fhir:Questionnaire.item.repeats [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 1;
+         fhir:Questionnaire.item.linkId [ fhir:value "identifier_value" ];
+         fhir:Questionnaire.item.text [
+           fhir:value "Value";
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Extension.url [ fhir:value "lang" ];
+               fhir:Extension.valueCode [ fhir:value "fr" ]
+             ], [
+               fhir:index 1;
+               fhir:Extension.url [ fhir:value "content" ];
+               fhir:Extension.valueString [ fhir:value "identifiant" ]
+             ];
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+           ], [
+             fhir:index 1;
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Extension.url [ fhir:value "lang" ];
+               fhir:Extension.valueCode [ fhir:value "es" ]
+             ], [
+               fhir:index 1;
+               fhir:Extension.url [ fhir:value "content" ];
+               fhir:Extension.valueString [ fhir:value "identificador" ]
+             ];
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+           ]
+         ];
+         fhir:Questionnaire.item.type [ fhir:value "string" ];
+         fhir:Questionnaire.item.required [ fhir:value "true"^^xsd:boolean ];
+         fhir:Questionnaire.item.repeats [ fhir:value "false"^^xsd:boolean ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.linkId [ fhir:value "color" ];
+       fhir:Questionnaire.item.text [
+         fhir:value "Color";
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "lang" ];
+             fhir:Extension.valueCode [ fhir:value "es" ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "content" ];
+             fhir:Extension.valueString [ fhir:value "color" ]
+           ];
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+         ], [
+           fhir:index 1;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "lang" ];
+             fhir:Extension.valueCode [ fhir:value "fr" ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "content" ];
+             fhir:Extension.valueString [ fhir:value "couleur" ]
+           ];
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+         ]
+       ];
+       fhir:Questionnaire.item.type [ fhir:value "choice" ];
+       fhir:Questionnaire.item.required [ fhir:value "true"^^xsd:boolean ];
+       fhir:Questionnaire.item.repeats [ fhir:value "false"^^xsd:boolean ];
+       fhir:Questionnaire.item.answerOption [
+         fhir:index 0;
+         fhir:Questionnaire.item.answerOption.valueCoding [
+           fhir:Coding.code [ fhir:value "r" ];
+           fhir:Coding.display [
+             fhir:value "Red";
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Element.extension [
+                 fhir:index 0;
+                 fhir:Extension.url [ fhir:value "lang" ];
+                 fhir:Extension.valueCode [ fhir:value "fr" ]
+               ], [
+                 fhir:index 1;
+                 fhir:Extension.url [ fhir:value "content" ];
+                 fhir:Extension.valueString [ fhir:value "Rouge" ]
+               ];
+               fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+             ], [
+               fhir:index 1;
+               fhir:Element.extension [
+                 fhir:index 0;
+                 fhir:Extension.url [ fhir:value "lang" ];
+                 fhir:Extension.valueCode [ fhir:value "es" ]
+               ], [
+                 fhir:index 1;
+                 fhir:Extension.url [ fhir:value "content" ];
+                 fhir:Extension.valueString [ fhir:value "Rojo" ]
+               ];
+               fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+             ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Questionnaire.item.answerOption.valueCoding [
+           fhir:Coding.code [ fhir:value "r" ];
+           fhir:Coding.display [
+             fhir:value "Blue";
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Element.extension [
+                 fhir:index 0;
+                 fhir:Extension.url [ fhir:value "lang" ];
+                 fhir:Extension.valueCode [ fhir:value "fr" ]
+               ], [
+                 fhir:index 1;
+                 fhir:Extension.url [ fhir:value "content" ];
+                 fhir:Extension.valueString [ fhir:value "Bleu" ]
+               ];
+               fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+             ], [
+               fhir:index 1;
+               fhir:Element.extension [
+                 fhir:index 0;
+                 fhir:Extension.url [ fhir:value "lang" ];
+                 fhir:Extension.valueCode [ fhir:value "es" ]
+               ], [
+                 fhir:index 1;
+                 fhir:Extension.url [ fhir:value "content" ];
+                 fhir:Extension.valueString [ fhir:value "Azul" ]
+               ];
+               fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+             ]
+           ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:Questionnaire.item.answerOption.valueCoding [
+           fhir:Coding.code [ fhir:value "r" ];
+           fhir:Coding.display [
+             fhir:value "Green";
+             fhir:Element.extension [
+               fhir:index 0;
+               fhir:Element.extension [
+                 fhir:index 0;
+                 fhir:Extension.url [ fhir:value "lang" ];
+                 fhir:Extension.valueCode [ fhir:value "es" ]
+               ], [
+                 fhir:index 1;
+                 fhir:Extension.url [ fhir:value "content" ];
+                 fhir:Extension.valueString [ fhir:value "Verde" ]
+               ];
+               fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+             ], [
+               fhir:index 1;
+               fhir:Element.extension [
+                 fhir:index 0;
+                 fhir:Extension.url [ fhir:value "lang" ];
+                 fhir:Extension.valueCode [ fhir:value "fr" ]
+               ], [
+                 fhir:index 1;
+                 fhir:Extension.url [ fhir:value "content" ];
+                 fhir:Extension.valueString [ fhir:value "Vert" ]
+               ];
+               fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+             ]
+           ]
+         ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.linkId [ fhir:value "size" ];
+       fhir:Questionnaire.item.text [
+         fhir:value "Size";
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "lang" ];
+             fhir:Extension.valueCode [ fhir:value "es" ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "content" ];
+             fhir:Extension.valueString [ fhir:value "Tamaño" ]
+           ];
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+         ], [
+           fhir:index 1;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "lang" ];
+             fhir:Extension.valueCode [ fhir:value "fr" ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "content" ];
+             fhir:Extension.valueString [ fhir:value "Taille" ]
+           ];
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/translation" ]
+         ]
+       ];
+       fhir:Questionnaire.item.type [ fhir:value "choice" ];
+       fhir:Questionnaire.item.required [ fhir:value "true"^^xsd:boolean ];
+       fhir:Questionnaire.item.repeats [ fhir:value "false"^^xsd:boolean ];
+       fhir:Questionnaire.item.answerValueSet [
+         fhir:value "http://example.com/fhir/example/ValueSet/vs-product-size";
+         fhir:link <http://example.com/fhir/example/ValueSet/vs-product-size>
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.com/fhir/example/Questionnaire/questionnaire-ee.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
