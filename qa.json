@@ -3,9 +3,9 @@
   "name": "ExampleIG",
   "package-id": "my-ig",
   "ig-ver": "1.0.0",
-  "date": "Tue, 11 Oct, 2022 20:29:55 +0000",
+  "date": "Tue, 11 Oct, 2022 20:30:27 +0000",
   "errs": 19,
-  "warnings": 22,
+  "warnings": 19,
   "hints": 9,
   "version": "4.0.1",
   "tool": "5.0.0-ballot (3)"
