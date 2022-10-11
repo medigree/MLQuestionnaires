@@ -115,7 +115,7 @@
      ]
   ];
   fhir:Questionnaire.status [ fhir:value "active"];
-  fhir:Questionnaire.date [ fhir:value "2022-10-11T20:54:56+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-10-11T21:18:11+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "My Organization"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -423,7 +423,7 @@
        fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/questionnaire-item-control" ];
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
          fhir:Extension.valueCodeableConcept [
            fhir:CodeableConcept.coding [
              fhir:index 0;
@@ -568,7 +568,7 @@
        fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/questionnaire-item-control" ];
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
          fhir:Extension.valueCodeableConcept [
            fhir:CodeableConcept.coding [
              fhir:index 0;
