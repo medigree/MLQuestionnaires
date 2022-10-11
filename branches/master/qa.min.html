@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 18, warn = 13, info = 9, 1 -->
+<!-- broken links = errors = 18, warn = 16, info = 9, 1 -->
 <head>
   <title>ExampleIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for ExampleIG</h1>
- <p>Generated Tue Oct 11 19:25:14 UTC 2022, FHIR version 4.0.1 for my-ig#1.0.0 (canonical = <a href="http://example.com/fhir/example">http://example.com/fhir/example</a> (<a href="http://example.com/fhir/example/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Tue Oct 11 19:49:53 UTC 2022, FHIR version 4.0.1 for my-ig#1.0.0 (canonical = <a href="http://example.com/fhir/example">http://example.com/fhir/example</a> (<a href="http://example.com/fhir/example/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.6</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = my-ig, Canonical = http://example.com/fhir/example</td></tr>
@@ -53,9 +53,9 @@
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.com/fhir/example (Problem #1 with package-list.json at http://example.com/fhir/example: Invalid HTTP response 404 from http://example.com/fhir/example/package-list.json?nocache=1665516293304 (Not Found) (content in /tmp/fhir-http-3.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.com/fhir/example (Problem #1 with package-list.json at http://example.com/fhir/example: Invalid HTTP response 404 from http://example.com/fhir/example/package-list.json?nocache=1665517779688 (Not Found) (content in /tmp/fhir-http-3.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 18, warn = 13, info = 9, broken links = 1</td></tr>
+ <tr><td>Summary:</td><td> errors = 18, warn = 16, info = 9, broken links = 1</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -71,7 +71,7 @@
      <td><a href="#_github_workspace_fsh-generated_resources_ImplementationGuide-my-ig"><b>/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-ee"><b>/github/workspace/fsh-generated/resources/Questionnaire-questionnaire-ee</b></a></td><td><b>8</b></td><td><b>7</b></td><td><b>0</b></td>
+     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-questionnaire-ee"><b>/github/workspace/fsh-generated/resources/Questionnaire-questionnaire-ee</b></a></td><td><b>8</b></td><td><b>10</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-be-causativeagent"><b>/github/workspace/fsh-generated/resources/ValueSet-be-causativeagent</b></a></td><td><b>2</b></td><td><b>2</b></td><td><b>8</b></td>
@@ -182,6 +182,15 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Questionnaire.item[0].item[2].answerOption[2].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[0].item[3].answerOption[0].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[0].item[3].answerOption[1].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[0].item[3].answerOption[2].value.ofType(Coding)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
    </tr>
 </table>
 <hr/>
@@ -307,6 +316,15 @@
 <a name="TERMINOLOGY_TX_SYSTEM_NO_CODE"> </a>
 <h2>TERMINOLOGY_TX_SYSTEM_NO_CODE</h2>
  <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-questionnaire-ee.html">fsh-generated/resources/Questionnaire-questionnaire-ee.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-questionnaire-ee.html">fsh-generated/resources/Questionnaire-questionnaire-ee.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-questionnaire-ee.html">fsh-generated/resources/Questionnaire-questionnaire-ee.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="Questionnaire-questionnaire-ee.html">fsh-generated/resources/Questionnaire-questionnaire-ee.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
    </tr>
