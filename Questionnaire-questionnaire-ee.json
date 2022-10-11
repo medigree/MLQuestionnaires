@@ -118,7 +118,7 @@
     ]
   },
   "status": "active",
-  "date": "2022-10-11T20:54:56+00:00",
+  "date": "2022-10-11T21:18:11+00:00",
   "publisher": "My Organization",
   "contact": [
     {
@@ -457,7 +457,7 @@
         {
           "extension": [
             {
-              "url": "http://hl7.org/fhir/questionnaire-item-control",
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
               "valueCodeableConcept": {
                 "coding": [
                   {
@@ -617,7 +617,7 @@
         {
           "extension": [
             {
-              "url": "http://hl7.org/fhir/questionnaire-item-control",
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
               "valueCodeableConcept": {
                 "coding": [
                   {

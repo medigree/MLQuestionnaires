@@ -6,6 +6,9 @@
   "extensions": [],
   "profiles": {},
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
+      "Questionnaire.item.item"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
       "ValueSet"
     ],
@@ -16,9 +19,6 @@
       "Questionnaire.item.item.text",
       "Questionnaire.item.text",
       "Questionnaire.title"
-    ],
-    "http://hl7.org/fhir/questionnaire-item-control": [
-      "Questionnaire.item.item"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
       "ImplementationGuide.definition.page",
