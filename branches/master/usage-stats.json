@@ -25,6 +25,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://www.hl7.org/fhir/valueset-questionnaire-item-control": [
+      "Questionnaire.item.item"
     ]
   }
 }
