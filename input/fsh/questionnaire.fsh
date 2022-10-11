@@ -198,25 +198,7 @@ Title:    "Product data entry form"
         * answerOption[=].valueCoding.display
           * insert Translation(es,Verde)
           * insert Translation(fr,Vert)
-          
-    * insert Question(,color5,Color 5,choice,true,false)
-      * item[=]
-        * text 
-          * insert Translation(es,color)
-          * insert Translation(fr,couleur)
-        * answerOption[0].valueCoding = #r "Red"
-        * answerOption[=].valueCoding.display
-          * insert Translation(fr,Rouge)
-          * insert Translation(es,Rojo)
-        * answerOption[+].valueCoding = #r "Blue"
-        * answerOption[=].valueCoding.display
-          * insert Translation(fr,Bleu)
-          * insert Translation(es,Azul)
-        * answerOption[+].valueCoding = #r "Green"
-        * answerOption[=].valueCoding.display
-          * insert Translation(es,Verde)
-          * insert Translation(fr,Vert)
-
+         
 
       
   * insert Question(,size,Size,choice,true,false)
