@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1086bd42-ead5-4134-868a-7f895482e6bb"/>
+  <id value="fd128770-d284-4304-b9a7-358206f78eb2"/>
   <meta>
-    <lastUpdated value="2022-09-18T20:06:10.743+00:00"/>
+    <lastUpdated value="2022-10-11T19:14:51.080+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode"/>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/vs-product-size"/>
     <resource>
       <ValueSet>
-        <id value="be-allergyintolerancecode"/>
+        <id value="vs-product-size"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 8 concepts</p>
-            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion based on: </p>
-              <ul>
-                <li>
-                  <a href="ValueSet-be-causativeagent.html">BeCausativeAgent v1.0.0 (ValueSet)</a>
-                </li>
-                <li>SNOMED CT International edition 31-Jul 2022</li>
-              </ul>
-            </div>
+            <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -35,79 +26,58 @@
                 <td>
                   <b>Display</b>
                 </td>
+                <td>
+                  <b>French (fr)</b>
+                </td>
+                <td>
+                  <b>Spanish (es)</b>
+                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-264295007"> </a>  
-                  <a href="http://snomed.info/id/264295007">264295007</a>
+                  <a name="null-s"> </a>  s
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Cow's milk protein (substance)</td>
+                <td/>
+                <td>Small</td>
+                <td>Petit</td>
+                <td>Pequeño</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-230034002"> </a>  
-                  <a href="http://snomed.info/id/230034002">230034002</a>
+                  <a name="null-m"> </a>  m
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Nuts and seeds (substance)</td>
+                <td/>
+                <td>Medium</td>
+                <td>Moyen</td>
+                <td>Medio</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-7791007"> </a>  
-                  <a href="http://snomed.info/id/7791007">7791007</a>
+                  <a name="null-l"> </a>  l
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Soy protein (substance)</td>
+                <td/>
+                <td>Large</td>
+                <td>Large</td>
+                <td>Grande</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-89707004"> </a>  
-                  <a href="http://snomed.info/id/89707004">89707004</a>
+                  <a name="null-xl"> </a>  xl
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Sesame oil (substance)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-260167008"> </a>  
-                  <a href="http://snomed.info/id/260167008">260167008</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Sesame seed (substance)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-735029006"> </a>  
-                  <a href="http://snomed.info/id/735029006">735029006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Shellfish (substance)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-710179004"> </a>  
-                  <a href="http://snomed.info/id/710179004">710179004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Lupine seed (substance)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-735977009"> </a>  
-                  <a href="http://snomed.info/id/735977009">735977009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Marine crustacean (substance)</td>
+                <td/>
+                <td>Xtra Large</td>
+                <td>Très Large</td>
+                <td>Muy grande</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode"/>
+        <url value="http://example.com/fhir/example/ValueSet/vs-product-size"/>
         <version value="1.0.0"/>
-        <name value="BeAllergyIntoleranceCode"/>
+        <name value="VSProductSize"/>
+        <title value="Product-size"/>
         <status value="active"/>
-        <date value="2022-09-18T20:06:10+00:00"/>
+        <date value="2022-10-11T19:14:51+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -128,7 +98,7 @@
             <use value="work"/>
           </telecom>
         </contact>
-        <description value="Codes as communicated by NIHDI and the FOD Terminology Center differentiating types of allergy intolerance codes. This valueset supports the Belgian federal FHIR profiling effort."/>
+        <description value="Product size"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -137,64 +107,53 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:de85143d-9ae3-4557-bfae-fa03d0039176"/>
-          <timestamp value="2022-09-18T20:06:20+00:00"/>
-          <total value="8"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent|1.0.0"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
-          </parameter>
           <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="264295007"/>
-            <display value="Cow's milk protein (substance)"/>
+            <code value="s"/>
+            <display value="Small"/>
+            <designation>
+              <language value="fr"/>
+              <value value="Petit"/>
+            </designation>
+            <designation>
+              <language value="es"/>
+              <value value="Pequeño"/>
+            </designation>
           </contains>
           <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="230034002"/>
-            <display value="Nuts and seeds (substance)"/>
+            <code value="m"/>
+            <display value="Medium"/>
+            <designation>
+              <language value="fr"/>
+              <value value="Moyen"/>
+            </designation>
+            <designation>
+              <language value="es"/>
+              <value value="Medio"/>
+            </designation>
           </contains>
           <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="7791007"/>
-            <display value="Soy protein (substance)"/>
+            <code value="l"/>
+            <display value="Large"/>
+            <designation>
+              <language value="fr"/>
+              <value value="Large"/>
+            </designation>
+            <designation>
+              <language value="es"/>
+              <value value="Grande"/>
+            </designation>
           </contains>
           <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="89707004"/>
-            <display value="Sesame oil (substance)"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="260167008"/>
-            <display value="Sesame seed (substance)"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="735029006"/>
-            <display value="Shellfish (substance)"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="710179004"/>
-            <display value="Lupine seed (substance)"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="735977009"/>
-            <display value="Marine crustacean (substance)"/>
+            <code value="xl"/>
+            <display value="Xtra Large"/>
+            <designation>
+              <language value="fr"/>
+              <value value="Très Large"/>
+            </designation>
+            <designation>
+              <language value="es"/>
+              <value value="Muy grande"/>
+            </designation>
           </contains>
         </expansion>
       </ValueSet>
@@ -296,7 +255,7 @@
         <version value="1.0.0"/>
         <name value="BeCausativeAgent"/>
         <status value="active"/>
-        <date value="2022-09-18T20:06:10+00:00"/>
+        <date value="2022-10-11T19:14:51+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -326,8 +285,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c85ca6c3-f43b-48ee-8d27-8c3d0d804558"/>
-          <timestamp value="2022-09-18T20:06:21+00:00"/>
+          <identifier value="urn:uuid:c1dc58a7-9377-4d74-8fd1-b601af1f0146"/>
+          <timestamp value="2022-10-11T19:16:00+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -380,6 +339,131 @@
             <system value="http://snomed.info/sct"/>
             <code value="735977009"/>
             <display value="Marine crustacean (substance)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.com/fhir/example/ValueSet/vs-product-size"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-product-size"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>French (fr)</b>
+                </td>
+                <td>
+                  <b>Spanish (es)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="null-s"> </a>  s
+                </td>
+                <td/>
+                <td>Small</td>
+                <td>Petit</td>
+                <td>Pequeño</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="null-m"> </a>  m
+                </td>
+                <td/>
+                <td>Medium</td>
+                <td>Moyen</td>
+                <td>Medio</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="null-l"> </a>  l
+                </td>
+                <td/>
+                <td>Large</td>
+                <td>Large</td>
+                <td>Grande</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="null-xl"> </a>  xl
+                </td>
+                <td/>
+                <td>Xtra Large</td>
+                <td>Très Large</td>
+                <td>Muy grande</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.com/fhir/example/ValueSet/vs-product-size"/>
+        <version value="1.0.0"/>
+        <name value="VSProductSize"/>
+        <title value="Product-size"/>
+        <status value="active"/>
+        <description value="Product size"/>
+        <expansion>
+          <contains>
+            <code value="s"/>
+            <display value="Small"/>
+            <designation>
+              <language value="fr"/>
+              <value value="Petit"/>
+            </designation>
+            <designation>
+              <language value="es"/>
+              <value value="Pequeño"/>
+            </designation>
+          </contains>
+          <contains>
+            <code value="m"/>
+            <display value="Medium"/>
+            <designation>
+              <language value="fr"/>
+              <value value="Moyen"/>
+            </designation>
+            <designation>
+              <language value="es"/>
+              <value value="Medio"/>
+            </designation>
+          </contains>
+          <contains>
+            <code value="l"/>
+            <display value="Large"/>
+            <designation>
+              <language value="fr"/>
+              <value value="Large"/>
+            </designation>
+            <designation>
+              <language value="es"/>
+              <value value="Grande"/>
+            </designation>
+          </contains>
+          <contains>
+            <code value="xl"/>
+            <display value="Xtra Large"/>
+            <designation>
+              <language value="fr"/>
+              <value value="Très Large"/>
+            </designation>
+            <designation>
+              <language value="es"/>
+              <value value="Muy grande"/>
+            </designation>
           </contains>
         </expansion>
       </ValueSet>

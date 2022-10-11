@@ -1,0 +1,112 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-product-size",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>French (fr)</b></td><td><b>Spanish (es)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-s\"> </a>  s</td><td/><td>Small</td><td>Petit</td><td>Pequeño</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-m\"> </a>  m</td><td/><td>Medium</td><td>Moyen</td><td>Medio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-l\"> </a>  l</td><td/><td>Large</td><td>Large</td><td>Grande</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-xl\"> </a>  xl</td><td/><td>Xtra Large</td><td>Très Large</td><td>Muy grande</td></tr></table></div>"
+  },
+  "url": "http://example.com/fhir/example/ValueSet/vs-product-size",
+  "version": "1.0.0",
+  "name": "VSProductSize",
+  "title": "Product-size",
+  "status": "active",
+  "date": "2022-10-11T19:14:51+00:00",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Product size",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "expansion": {
+    "contains": [
+      {
+        "code": "s",
+        "display": "Small",
+        "designation": [
+          {
+            "language": "fr",
+            "value": "Petit"
+          },
+          {
+            "language": "es",
+            "value": "Pequeño"
+          }
+        ]
+      },
+      {
+        "code": "m",
+        "display": "Medium",
+        "designation": [
+          {
+            "language": "fr",
+            "value": "Moyen"
+          },
+          {
+            "language": "es",
+            "value": "Medio"
+          }
+        ]
+      },
+      {
+        "code": "l",
+        "display": "Large",
+        "designation": [
+          {
+            "language": "fr",
+            "value": "Large"
+          },
+          {
+            "language": "es",
+            "value": "Grande"
+          }
+        ]
+      },
+      {
+        "code": "xl",
+        "display": "Xtra Large",
+        "designation": [
+          {
+            "language": "fr",
+            "value": "Très Large"
+          },
+          {
+            "language": "es",
+            "value": "Muy grande"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "product-size",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://example.com/fhir/example/CodeSystem/product-size</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">s<a name=\"product-size-s\"> </a></td><td>Small</td><td>Small</td></tr><tr><td style=\"white-space:nowrap\">m<a name=\"product-size-m\"> </a></td><td>Medium</td><td>Medium</td></tr><tr><td style=\"white-space:nowrap\">l<a name=\"product-size-l\"> </a></td><td>Large</td><td>Large</td></tr><tr><td style=\"white-space:nowrap\">xl<a name=\"product-size-xl\"> </a></td><td>Xtra Large</td><td>Extra Large</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Spanish (es)</b></td><td><b>French (fr)</b></td></tr><tr><td>s</td><td>Pequeño</td><td>Petit</td></tr><tr><td>m</td><td>Medio</td><td>Moyen</td></tr><tr><td>l</td><td>Grande</td><td>Large</td></tr><tr><td>xl</td><td>Muy grande</td><td>Très Large</td></tr></table></div>"
+  },
+  "url": "http://example.com/fhir/example/CodeSystem/product-size",
+  "version": "1.0.0",
+  "name": "CSProductSize",
+  "title": "Product-size",
+  "status": "active",
+  "date": "2022-10-11T19:14:51+00:00",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Product size",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "s",
+      "display": "Small",
+      "definition": "Small",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Petit"
+        },
+        {
+          "language": "es",
+          "value": "Pequeño"
+        }
+      ]
+    },
+    {
+      "code": "m",
+      "display": "Medium",
+      "definition": "Medium",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Moyen"
+        },
+        {
+          "language": "es",
+          "value": "Medio"
+        }
+      ]
+    },
+    {
+      "code": "l",
+      "display": "Large",
+      "definition": "Large",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Large"
+        },
+        {
+          "language": "es",
+          "value": "Grande"
+        }
+      ]
+    },
+    {
+      "code": "xl",
+      "display": "Xtra Large",
+      "definition": "Extra Large",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Très Large"
+        },
+        {
+          "language": "es",
+          "value": "Muy grande"
+        }
+      ]
+    }
+  ]
+}

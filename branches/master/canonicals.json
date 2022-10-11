@@ -7,18 +7,25 @@
     "name": "ExampleIG"
   },
   {
-    "id": "allergy-intolerance-questionnaire",
-    "type": "Questionnaire",
-    "url": "http://example.com/fhir/example/Questionnaire/allergy-intolerance-questionnaire",
+    "id": "product-size",
+    "type": "CodeSystem",
+    "url": "http://example.com/fhir/example/CodeSystem/product-size",
     "version": "1.0.0",
-    "name": "AllergyIntoleranceQuestionnaire"
+    "name": "CSProductSize"
   },
   {
-    "id": "be-allergyintolerancecode",
-    "type": "ValueSet",
-    "url": "https://medigree.github.io/MLQuestionnaires/ValueSet-be-allergyintolerancecode",
+    "id": "questionnaire-ee",
+    "type": "Questionnaire",
+    "url": "http://example.com/fhir/example/Questionnaire/questionnaire-ee",
     "version": "1.0.0",
-    "name": "BeAllergyIntoleranceCode"
+    "name": "questionnaire-ee"
+  },
+  {
+    "id": "vs-product-size",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/vs-product-size",
+    "version": "1.0.0",
+    "name": "VSProductSize"
   },
   {
     "id": "be-causativeagent",

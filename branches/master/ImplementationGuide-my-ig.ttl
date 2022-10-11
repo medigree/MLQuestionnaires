@@ -341,26 +341,26 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/ValueSet/be-allergyintolerancecode>;
-         fhir:Reference.reference [ fhir:value "ValueSet/be-allergyintolerancecode" ]
+         fhir:link <http://example.com/fhir/example/ValueSet/vs-product-size>;
+         fhir:Reference.reference [ fhir:value "ValueSet/vs-product-size" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BeAllergyIntoleranceCode" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes as communicated by NIHDI and the FOD Terminology Center differentiating types of allergy intolerance codes. This valueset supports the Belgian federal FHIR profiling effort." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Product-size" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Product size" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/Questionnaire/allergy-intolerance-questionnaire>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/allergy-intolerance-questionnaire" ]
+         fhir:link <http://example.com/fhir/example/CodeSystem/product-size>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/product-size" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire for Allergy / Intolerance reporting" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Questionnaire for Allergy / Intolerance reporting" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Product-size" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Product size" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
        fhir:Element.extension [
@@ -375,6 +375,20 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "be-causativeagent" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes as communicated by NIHDI and the FPS Terminology Center differentiating types of causative agent. This valueset supports the Belgian federal FHIR profiling effort." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/Questionnaire/questionnaire-ee>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/questionnaire-ee" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Product data entry form" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Product data entry form" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [
