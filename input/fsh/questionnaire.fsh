@@ -1,9 +1,3 @@
-Alias: $SCT = http://snomed.ct/info
-Alias: $translation = http://hl7.org/fhir/StructureDefinition/translation
-
-
-
-
 RuleSet: CodeDef(code,display,definition)
 * ^concept[+].code = #{code}
 * ^concept[=].display = "{display}"
@@ -20,6 +14,12 @@ RuleSet: VSCodeDef(code,display)
 RuleSet: VSDesignation(language, text)
 * ^expansion.contains[=].designation[+].language = #{language}
 * ^expansion.contains[=].designation[=].value = "{text}"
+
+RuleSet: ItemControl(code)
+* extension[+].url = "https://www.hl7.org/fhir/valueset-questionnaire-item-control"
+* extension[=].valueCodeableConcept = http://hl7.org/fhir/questionnaire-item-control#{code}
+
+
 
 
 CodeSystem: CSProductSize
@@ -121,8 +121,9 @@ Title:    "Product data entry form"
         * insert Translation(fr,identifiant)
         * insert Translation(es,identificador)
 
-  * insert Question(,color,Color,choice,true,false)
+  * insert Question(,color1,Color 1,choice,true,false)
     * item[=]
+      * insert ItemControl(table)
       * text 
         * insert Translation(es,color)
         * insert Translation(fr,couleur)
@@ -138,7 +139,30 @@ Title:    "Product data entry form"
       * answerOption[=].valueCoding.display
         * insert Translation(es,Verde)
         * insert Translation(fr,Vert)
-      
+
+
+
+  * insert Question(,color2,Color 2,choice,true,false)
+    * item[=]
+      * insert ItemControl(radio-button)
+      * text 
+        * insert Translation(es,color)
+        * insert Translation(fr,couleur)
+      * answerOption[0].valueCoding = #r "Red"
+      * answerOption[=].valueCoding.display
+        * insert Translation(fr,Rouge)
+        * insert Translation(es,Rojo)
+      * answerOption[+].valueCoding = #r "Blue"
+      * answerOption[=].valueCoding.display
+        * insert Translation(fr,Bleu)
+        * insert Translation(es,Azul)
+      * answerOption[+].valueCoding = #r "Green"
+      * answerOption[=].valueCoding.display
+        * insert Translation(es,Verde)
+        * insert Translation(fr,Vert)
+
+
+
       
   * insert Question(,size,Size,choice,true,false)
     * item[=]
