@@ -11,13 +11,13 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/translation": [
       "Questionnaire.item.item.answerOption.valueCoding.display",
+      "Questionnaire.item.item.item.answerOption.valueCoding.display",
       "Questionnaire.item.item.item.text",
       "Questionnaire.item.item.text",
       "Questionnaire.item.text",
       "Questionnaire.title"
     ],
     "http://hl7.org/fhir/questionnaire-item-control": [
-      "Questionnaire.item",
       "Questionnaire.item.item"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
