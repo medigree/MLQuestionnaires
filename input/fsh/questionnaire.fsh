@@ -16,7 +16,7 @@ RuleSet: VSDesignation(language, text)
 * ^expansion.contains[=].designation[=].value = "{text}"
 
 RuleSet: ItemControl(code)
-* extension[+].url = "https://www.hl7.org/fhir/valueset-questionnaire-item-control"
+* extension[+].url = "http://hl7.org/fhir/questionnaire-item-control"
 * extension[=].valueCodeableConcept = http://hl7.org/fhir/questionnaire-item-control#{code}
 
 
@@ -123,7 +123,6 @@ Title:    "Product data entry form"
 
   * insert Question(,color1,Color 1,choice,true,false)
     * item[=]
-      * insert ItemControl(table)
       * text 
         * insert Translation(es,color)
         * insert Translation(fr,couleur)
@@ -162,24 +161,61 @@ Title:    "Product data entry form"
         * insert Translation(fr,Vert)
 
 
+  * insert Question(,additional_colors,Additional Colors,group,false,true)
+    * insert ItemControl(table)
+    * insert Question(,color3,Color 3,choice,true,false)
+      * item[=]
+        * text 
+          * insert Translation(es,color)
+          * insert Translation(fr,couleur)
+        * answerOption[0].valueCoding = #r "Red"
+        * answerOption[=].valueCoding.display
+          * insert Translation(fr,Rouge)
+          * insert Translation(es,Rojo)
+        * answerOption[+].valueCoding = #r "Blue"
+        * answerOption[=].valueCoding.display
+          * insert Translation(fr,Bleu)
+          * insert Translation(es,Azul)
+        * answerOption[+].valueCoding = #r "Green"
+        * answerOption[=].valueCoding.display
+          * insert Translation(es,Verde)
+          * insert Translation(fr,Vert)
 
-  * insert Question(,color3,Color 3,choice,true,false)
-    * item[=]
-      * text 
-        * insert Translation(es,color)
-        * insert Translation(fr,couleur)
-      * answerOption[0].valueCoding = #r "Red"
-      * answerOption[=].valueCoding.display
-        * insert Translation(fr,Rouge)
-        * insert Translation(es,Rojo)
-      * answerOption[+].valueCoding = #r "Blue"
-      * answerOption[=].valueCoding.display
-        * insert Translation(fr,Bleu)
-        * insert Translation(es,Azul)
-      * answerOption[+].valueCoding = #r "Green"
-      * answerOption[=].valueCoding.display
-        * insert Translation(es,Verde)
-        * insert Translation(fr,Vert)
+    * insert Question(,color4,Color 4,choice,true,false)
+      * item[=]
+        * text 
+          * insert Translation(es,color)
+          * insert Translation(fr,couleur)
+        * answerOption[0].valueCoding = #r "Red"
+        * answerOption[=].valueCoding.display
+          * insert Translation(fr,Rouge)
+          * insert Translation(es,Rojo)
+        * answerOption[+].valueCoding = #r "Blue"
+        * answerOption[=].valueCoding.display
+          * insert Translation(fr,Bleu)
+          * insert Translation(es,Azul)
+        * answerOption[+].valueCoding = #r "Green"
+        * answerOption[=].valueCoding.display
+          * insert Translation(es,Verde)
+          * insert Translation(fr,Vert)
+          
+    * insert Question(,color5,Color 5,choice,true,false)
+      * item[=]
+        * text 
+          * insert Translation(es,color)
+          * insert Translation(fr,couleur)
+        * answerOption[0].valueCoding = #r "Red"
+        * answerOption[=].valueCoding.display
+          * insert Translation(fr,Rouge)
+          * insert Translation(es,Rojo)
+        * answerOption[+].valueCoding = #r "Blue"
+        * answerOption[=].valueCoding.display
+          * insert Translation(fr,Bleu)
+          * insert Translation(es,Azul)
+        * answerOption[+].valueCoding = #r "Green"
+        * answerOption[=].valueCoding.display
+          * insert Translation(es,Verde)
+          * insert Translation(fr,Vert)
 
 
       
