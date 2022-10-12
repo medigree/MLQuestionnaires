@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "VSProductSize"];
   fhir:ValueSet.title [ fhir:value "Product-size"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-10-12T21:14:46+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-10-12T22:29:23+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "My Organization"];
   fhir:ValueSet.contact [
      fhir:index 0;

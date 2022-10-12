@@ -1,13 +1,13 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 16, warn = 19, info = 9
+err = 16, warn = 22, info = 9
 IG Publisher Version: 1.2.6
-Generated Wed Oct 12 21:15:11 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Wed Oct 12 22:29:42 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-product-size : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-questionnaire-ee : 6 / 13 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-questionnaire-ee : 6 / 16 / 2
  /github/workspace/fsh-generated/resources/ValueSet-be-causativeagent : 2 / 2 / 9
  /github/workspace/fsh-generated/resources/ValueSet-vs-product-size : 5 / 1 / 1
 </table>
@@ -36,12 +36,15 @@ WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[1].answerOpt
 WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[2].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[2].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[2].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[3].item[0].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[3].item[0].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[3].item[0].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[3].item[1].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[3].item[1].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[3].item[1].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[3].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[3].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[3].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[4].item[0].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[4].item[0].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[4].item[0].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[4].item[1].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[4].item[1].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: Questionnaire/questionnaire-ee: Questionnaire.item[0].item[4].item[1].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/ValueSet-be-causativeagent.json ==
 ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-be-causativeagent.json - the canonical URL (http://example.com/fhir/example/ValueSet/be-causativeagent) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent)
 INFORMATION: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[0].designation[0].use: Code System URI 'http://snomed.ct/info' is unknown so the code cannot be validated
