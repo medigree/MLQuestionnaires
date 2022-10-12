@@ -3,7 +3,7 @@
 
 err = 16, warn = 22, info = 9
 IG Publisher Version: 1.2.6
-Generated Wed Oct 12 22:24:37 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Wed Oct 12 22:25:06 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 1 / 1 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-product-size : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
