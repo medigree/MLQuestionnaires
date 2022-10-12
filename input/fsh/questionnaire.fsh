@@ -154,7 +154,6 @@ Title:    "Product data entry form"
   * insert Question(,color2b,Colors 2b,choice,true,false)
     * item[=]
       * insert ItemControl(check-box)
-      * Repeats: true
       * text
         * insert Translation(es,color)
         * insert Translation(fr,couleur)
