@@ -81,6 +81,20 @@ RuleSet: Translation(language, text)
 * extension[=].extension[+].url = "content"
 * extension[=].extension[=].valueString = "{text}"
 
+RuleSet: ColorOptions
+* answerOption[0].valueCoding = #r "Red"
+* answerOption[=].valueCoding.display
+  * insert Translation(fr,Rouge)
+  * insert Translation(es,Rojo)
+* answerOption[+].valueCoding = #b "Blue"
+* answerOption[=].valueCoding.display
+  * insert Translation(fr,Bleu)
+  * insert Translation(es,Azul)
+* answerOption[+].valueCoding = #g "Green"
+* answerOption[=].valueCoding.display
+  * insert Translation(es,Verde)
+  * insert Translation(fr,Vert)
+
 
 
 Instance: questionnaire-ee
@@ -102,109 +116,70 @@ Title:    "Product data entry form"
 
 * insert Question(,MedicinalProduct,Product,group,false,true)
 * item[=]
-  * text 
+  * text
     * insert Translation(es,Producto)
     * insert Translation(fr,Produit)
   * insert Question(,identifier,Identifier,group,false,true)
   * item[=]
-    * text 
+    * text
       * insert Translation(fr,identifiant produit)
       * insert Translation(es,identifcador de producto)
     * insert Question(,identifier_system,System,string,true,false)
     * item[=]
-      * text 
+      * text
         * insert Translation(fr,système d'identification)
         * insert Translation(es,systema de identificación)
     * insert Question(,identifier_value,Value,string,true,false)
     * item[=]
-      * text 
+      * text
         * insert Translation(fr,identifiant)
         * insert Translation(es,identificador)
 
   * insert Question(,color1,Color 1,choice,true,false)
     * item[=]
-      * text 
+      * text
         * insert Translation(es,color)
         * insert Translation(fr,couleur)
-      * answerOption[0].valueCoding = #r "Red"
-      * answerOption[=].valueCoding.display
-        * insert Translation(fr,Rouge)
-        * insert Translation(es,Rojo)
-      * answerOption[+].valueCoding = #b "Blue"
-      * answerOption[=].valueCoding.display
-        * insert Translation(fr,Bleu)
-        * insert Translation(es,Azul)
-      * answerOption[+].valueCoding = #g "Green"
-      * answerOption[=].valueCoding.display
-        * insert Translation(es,Verde)
-        * insert Translation(fr,Vert)
-
+      * insert ColorOptions
 
 
   * insert Question(,color2,Color 2,choice,true,false)
     * item[=]
       * insert ItemControl(radio-button)
-      * text 
+      * text
         * insert Translation(es,color)
         * insert Translation(fr,couleur)
-      * answerOption[0].valueCoding = #r "Red"
-      * answerOption[=].valueCoding.display
-        * insert Translation(fr,Rouge)
-        * insert Translation(es,Rojo)
-      * answerOption[+].valueCoding = #b "Blue"
-      * answerOption[=].valueCoding.display
-        * insert Translation(fr,Bleu)
-        * insert Translation(es,Azul)
-      * answerOption[+].valueCoding = #g "Green"
-      * answerOption[=].valueCoding.display
-        * insert Translation(es,Verde)
-        * insert Translation(fr,Vert)
+      * insert ColorOptions
 
+  * insert Question(,color2b,Colors 2b,choice,true,false)
+    * item[=]
+      * insert ItemControl(check-box)
+      * text
+        * insert Translation(es,color)
+        * insert Translation(fr,couleur)
+      * insert ColorOptions
 
   * insert Question(,additional_colors,Additional Colors,group,false,true)
-    * item[=]  
+    * item[=]
       * insert ItemControl(table)
       * insert Question(,color3,Color 3,choice,true,false)
         * item[=]
-          * text 
+          * text
             * insert Translation(es,color)
             * insert Translation(fr,couleur)
-          * answerOption[0].valueCoding = #r "Red"
-          * answerOption[=].valueCoding.display
-            * insert Translation(fr,Rouge)
-            * insert Translation(es,Rojo)
-          * answerOption[+].valueCoding = #b "Blue"
-          * answerOption[=].valueCoding.display
-            * insert Translation(fr,Bleu)
-            * insert Translation(es,Azul)
-          * answerOption[+].valueCoding = #g "Green"
-          * answerOption[=].valueCoding.display
-            * insert Translation(es,Verde)
-            * insert Translation(fr,Vert)   
+          * insert ColorOptions
 
       * insert Question(,color4,Color 4,choice,true,false)
         * item[=]
-          * text 
+          * text
             * insert Translation(es,color)
             * insert Translation(fr,couleur)
-          * answerOption[0].valueCoding = #r "Red"
-          * answerOption[=].valueCoding.display
-            * insert Translation(fr,Rouge)
-            * insert Translation(es,Rojo)
-          * answerOption[+].valueCoding = #b "Blue"
-          * answerOption[=].valueCoding.display
-            * insert Translation(fr,Bleu)
-            * insert Translation(es,Azul)
-          * answerOption[+].valueCoding = #g "Green"
-          * answerOption[=].valueCoding.display
-            * insert Translation(es,Verde)
-            * insert Translation(fr,Vert)
-          
+          * insert ColorOptions
 
-      
+
   * insert Question(,size,Size,choice,true,false)
     * item[=]
-      * text 
+      * text
         * insert Translation(es,Tamaño)
         * insert Translation(fr,Taille)
       * answerValueSet = Canonical(vs-product-size)
