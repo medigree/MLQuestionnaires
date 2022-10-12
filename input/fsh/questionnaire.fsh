@@ -130,11 +130,11 @@ Title:    "Product data entry form"
       * answerOption[=].valueCoding.display
         * insert Translation(fr,Rouge)
         * insert Translation(es,Rojo)
-      * answerOption[+].valueCoding = #r "Blue"
+      * answerOption[+].valueCoding = #b "Blue"
       * answerOption[=].valueCoding.display
         * insert Translation(fr,Bleu)
         * insert Translation(es,Azul)
-      * answerOption[+].valueCoding = #r "Green"
+      * answerOption[+].valueCoding = #g "Green"
       * answerOption[=].valueCoding.display
         * insert Translation(es,Verde)
         * insert Translation(fr,Vert)
@@ -151,11 +151,11 @@ Title:    "Product data entry form"
       * answerOption[=].valueCoding.display
         * insert Translation(fr,Rouge)
         * insert Translation(es,Rojo)
-      * answerOption[+].valueCoding = #r "Blue"
+      * answerOption[+].valueCoding = #b "Blue"
       * answerOption[=].valueCoding.display
         * insert Translation(fr,Bleu)
         * insert Translation(es,Azul)
-      * answerOption[+].valueCoding = #r "Green"
+      * answerOption[+].valueCoding = #g "Green"
       * answerOption[=].valueCoding.display
         * insert Translation(es,Verde)
         * insert Translation(fr,Vert)
@@ -173,11 +173,11 @@ Title:    "Product data entry form"
           * answerOption[=].valueCoding.display
             * insert Translation(fr,Rouge)
             * insert Translation(es,Rojo)
-          * answerOption[+].valueCoding = #r "Blue"
+          * answerOption[+].valueCoding = #b "Blue"
           * answerOption[=].valueCoding.display
             * insert Translation(fr,Bleu)
             * insert Translation(es,Azul)
-          * answerOption[+].valueCoding = #r "Green"
+          * answerOption[+].valueCoding = #g "Green"
           * answerOption[=].valueCoding.display
             * insert Translation(es,Verde)
             * insert Translation(fr,Vert)   
@@ -191,11 +191,11 @@ Title:    "Product data entry form"
           * answerOption[=].valueCoding.display
             * insert Translation(fr,Rouge)
             * insert Translation(es,Rojo)
-          * answerOption[+].valueCoding = #r "Blue"
+          * answerOption[+].valueCoding = #b "Blue"
           * answerOption[=].valueCoding.display
             * insert Translation(fr,Bleu)
             * insert Translation(es,Azul)
-          * answerOption[+].valueCoding = #r "Green"
+          * answerOption[+].valueCoding = #g "Green"
           * answerOption[=].valueCoding.display
             * insert Translation(es,Verde)
             * insert Translation(fr,Vert)
