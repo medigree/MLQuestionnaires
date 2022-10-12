@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-product-size"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 4 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>French (fr)</b></td><td><b>Spanish (es)</b></td></tr><tr><td style="white-space:nowrap"><a name="null-s"> </a>  s</td><td/><td>Small</td><td>Petit</td><td>Pequeño</td></tr><tr><td style="white-space:nowrap"><a name="null-m"> </a>  m</td><td/><td>Medium</td><td>Moyen</td><td>Medio</td></tr><tr><td style="white-space:nowrap"><a name="null-l"> </a>  l</td><td/><td>Large</td><td>Large</td><td>Grande</td></tr><tr><td style="white-space:nowrap"><a name="null-xl"> </a>  xl</td><td/><td>Xtra Large</td><td>Très Large</td><td>Muy grande</td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/example/ValueSet/vs-product-size"/>
+  <version value="1.0.0"/>
+  <name value="VSProductSize"/>
+  <title value="Product-size"/>
+  <status value="active"/>
+  <date value="2022-10-12T22:24:11+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Product size"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <expansion>
+    <contains>
+      <code value="s"/>
+      <display value="Small"/>
+      <designation>
+        <language value="fr"/>
+        <value value="Petit"/>
+      </designation>
+      <designation>
+        <language value="es"/>
+        <value value="Pequeño"/>
+      </designation>
+    </contains>
+    <contains>
+      <code value="m"/>
+      <display value="Medium"/>
+      <designation>
+        <language value="fr"/>
+        <value value="Moyen"/>
+      </designation>
+      <designation>
+        <language value="es"/>
+        <value value="Medio"/>
+      </designation>
+    </contains>
+    <contains>
+      <code value="l"/>
+      <display value="Large"/>
+      <designation>
+        <language value="fr"/>
+        <value value="Large"/>
+      </designation>
+      <designation>
+        <language value="es"/>
+        <value value="Grande"/>
+      </designation>
+    </contains>
+    <contains>
+      <code value="xl"/>
+      <display value="Xtra Large"/>
+      <designation>
+        <language value="fr"/>
+        <value value="Très Large"/>
+      </designation>
+      <designation>
+        <language value="es"/>
+        <value value="Muy grande"/>
+      </designation>
+    </contains>
+  </expansion>
+</ValueSet>

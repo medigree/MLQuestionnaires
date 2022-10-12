@@ -1,0 +1,34 @@
+{
+  "package": "my-ig",
+  "version": "1.0.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/translation": [
+      "Questionnaire.item.item.answerOption.valueCoding.display",
+      "Questionnaire.item.item.item.answerOption.valueCoding.display",
+      "Questionnaire.item.item.item.text",
+      "Questionnaire.item.item.text",
+      "Questionnaire.item.text",
+      "Questionnaire.title"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

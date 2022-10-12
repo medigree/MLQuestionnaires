@@ -1,0 +1,275 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "6544e547-6a50-43f1-a55c-cba20838bd1b",
+  "meta" : {
+    "lastUpdated" : "2022-10-12T22:24:11.492+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-product-size",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vs-product-size",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>French (fr)</b></td><td><b>Spanish (es)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-s\"> </a>  s</td><td/><td>Small</td><td>Petit</td><td>Pequeño</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-m\"> </a>  m</td><td/><td>Medium</td><td>Moyen</td><td>Medio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-l\"> </a>  l</td><td/><td>Large</td><td>Large</td><td>Grande</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-xl\"> </a>  xl</td><td/><td>Xtra Large</td><td>Très Large</td><td>Muy grande</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/vs-product-size",
+      "version" : "1.0.0",
+      "name" : "VSProductSize",
+      "title" : "Product-size",
+      "status" : "active",
+      "date" : "2022-10-12T22:24:11+00:00",
+      "publisher" : "My Organization",
+      "contact" : [{
+        "name" : "My Organization",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://example.com/committees"
+        },
+        {
+          "system" : "email",
+          "value" : "my-group@example.com"
+        }]
+      },
+      {
+        "name" : "Bob Smith",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "bobsmith@example.com",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Product size",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "contains" : [{
+          "code" : "s",
+          "display" : "Small",
+          "designation" : [{
+            "language" : "fr",
+            "value" : "Petit"
+          },
+          {
+            "language" : "es",
+            "value" : "Pequeño"
+          }]
+        },
+        {
+          "code" : "m",
+          "display" : "Medium",
+          "designation" : [{
+            "language" : "fr",
+            "value" : "Moyen"
+          },
+          {
+            "language" : "es",
+            "value" : "Medio"
+          }]
+        },
+        {
+          "code" : "l",
+          "display" : "Large",
+          "designation" : [{
+            "language" : "fr",
+            "value" : "Large"
+          },
+          {
+            "language" : "es",
+            "value" : "Grande"
+          }]
+        },
+        {
+          "code" : "xl",
+          "display" : "Xtra Large",
+          "designation" : [{
+            "language" : "fr",
+            "value" : "Très Large"
+          },
+          {
+            "language" : "es",
+            "value" : "Muy grande"
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "be-causativeagent",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-264295007\"> </a>  <a href=\"http://snomed.info/id/264295007\">264295007</a></td><td>http://snomed.info/sct</td><td>Cow's milk protein (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-230034002\"> </a>  <a href=\"http://snomed.info/id/230034002\">230034002</a></td><td>http://snomed.info/sct</td><td>Nuts and seeds (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7791007\"> </a>  <a href=\"http://snomed.info/id/7791007\">7791007</a></td><td>http://snomed.info/sct</td><td>Soy protein (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-89707004\"> </a>  <a href=\"http://snomed.info/id/89707004\">89707004</a></td><td>http://snomed.info/sct</td><td>Sesame oil (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260167008\"> </a>  <a href=\"http://snomed.info/id/260167008\">260167008</a></td><td>http://snomed.info/sct</td><td>Sesame seed (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-735029006\"> </a>  <a href=\"http://snomed.info/id/735029006\">735029006</a></td><td>http://snomed.info/sct</td><td>Shellfish (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-710179004\"> </a>  <a href=\"http://snomed.info/id/710179004\">710179004</a></td><td>http://snomed.info/sct</td><td>Lupine seed (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-735977009\"> </a>  <a href=\"http://snomed.info/id/735977009\">735977009</a></td><td>http://snomed.info/sct</td><td>Marine crustacean (substance)</td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1
+      }],
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent",
+      "version" : "1.0.0",
+      "name" : "BeCausativeAgent",
+      "status" : "active",
+      "date" : "2022-10-12T22:24:11+00:00",
+      "publisher" : "My Organization",
+      "contact" : [{
+        "name" : "My Organization",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://example.com/committees"
+        },
+        {
+          "system" : "email",
+          "value" : "my-group@example.com"
+        }]
+      },
+      {
+        "name" : "Bob Smith",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "bobsmith@example.com",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Codes as communicated by NIHDI and the FPS Terminology Center differentiating types of causative agent. This valueset supports the Belgian federal FHIR profiling effort.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:fcc1590e-cb2d-43fa-b4eb-caadad45f022",
+        "timestamp" : "2022-10-12T22:24:31+00:00",
+        "total" : 8,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "264295007",
+          "display" : "Cow's milk protein (substance)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "230034002",
+          "display" : "Nuts and seeds (substance)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "7791007",
+          "display" : "Soy protein (substance)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "89707004",
+          "display" : "Sesame oil (substance)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "260167008",
+          "display" : "Sesame seed (substance)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "735029006",
+          "display" : "Shellfish (substance)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "710179004",
+          "display" : "Lupine seed (substance)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "735977009",
+          "display" : "Marine crustacean (substance)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/vs-product-size",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vs-product-size",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>French (fr)</b></td><td><b>Spanish (es)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-s\"> </a>  s</td><td/><td>Small</td><td>Petit</td><td>Pequeño</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-m\"> </a>  m</td><td/><td>Medium</td><td>Moyen</td><td>Medio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-l\"> </a>  l</td><td/><td>Large</td><td>Large</td><td>Grande</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-xl\"> </a>  xl</td><td/><td>Xtra Large</td><td>Très Large</td><td>Muy grande</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/vs-product-size",
+      "version" : "1.0.0",
+      "name" : "VSProductSize",
+      "title" : "Product-size",
+      "status" : "active",
+      "description" : "Product size",
+      "expansion" : {
+        "contains" : [{
+          "code" : "s",
+          "display" : "Small",
+          "designation" : [{
+            "language" : "fr",
+            "value" : "Petit"
+          },
+          {
+            "language" : "es",
+            "value" : "Pequeño"
+          }]
+        },
+        {
+          "code" : "m",
+          "display" : "Medium",
+          "designation" : [{
+            "language" : "fr",
+            "value" : "Moyen"
+          },
+          {
+            "language" : "es",
+            "value" : "Medio"
+          }]
+        },
+        {
+          "code" : "l",
+          "display" : "Large",
+          "designation" : [{
+            "language" : "fr",
+            "value" : "Large"
+          },
+          {
+            "language" : "es",
+            "value" : "Grande"
+          }]
+        },
+        {
+          "code" : "xl",
+          "display" : "Xtra Large",
+          "designation" : [{
+            "language" : "fr",
+            "value" : "Très Large"
+          },
+          {
+            "language" : "es",
+            "value" : "Muy grande"
+          }]
+        }]
+      }
+    }
+  }]
+}

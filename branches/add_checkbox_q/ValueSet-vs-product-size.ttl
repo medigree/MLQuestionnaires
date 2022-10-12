@@ -1,0 +1,116 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.com/fhir/example/ValueSet/vs-product-size> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "vs-product-size"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>French (fr)</b></td><td><b>Spanish (es)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-s\"> </a>  s</td><td/><td>Small</td><td>Petit</td><td>Pequeño</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-m\"> </a>  m</td><td/><td>Medium</td><td>Moyen</td><td>Medio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-l\"> </a>  l</td><td/><td>Large</td><td>Large</td><td>Grande</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-xl\"> </a>  xl</td><td/><td>Xtra Large</td><td>Très Large</td><td>Muy grande</td></tr></table></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://example.com/fhir/example/ValueSet/vs-product-size"];
+  fhir:ValueSet.version [ fhir:value "1.0.0"];
+  fhir:ValueSet.name [ fhir:value "VSProductSize"];
+  fhir:ValueSet.title [ fhir:value "Product-size"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2022-10-12T22:24:11+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "My Organization"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "My Organization" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://example.com/committees" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "my-group@example.com" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Bob Smith" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "bobsmith@example.com" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Product size"];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ];
+       fhir:Coding.display [ fhir:value "World" ]
+     ]
+  ];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "s" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Small" ];
+       fhir:ValueSet.expansion.contains.designation [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+         fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Petit" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "es" ];
+         fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Pequeño" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "m" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Medium" ];
+       fhir:ValueSet.expansion.contains.designation [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+         fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Moyen" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "es" ];
+         fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Medio" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "l" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Large" ];
+       fhir:ValueSet.expansion.contains.designation [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+         fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Large" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "es" ];
+         fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Grande" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "xl" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Xtra Large" ];
+       fhir:ValueSet.expansion.contains.designation [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+         fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Très Large" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "es" ];
+         fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Muy grande" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.com/fhir/example/ValueSet/vs-product-size.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

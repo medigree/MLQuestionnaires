@@ -1,0 +1,274 @@
+{
+  "resourceType": "ValueSet",
+  "id": "be-causativeagent",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Fully specified name</b></td><td><b>English (English, en)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td><td><b>French (Belgium) (fr)</b></td></tr><tr><td><a href=\"http://snomed.info/id/264295007\">264295007</a></td><td>Cow's milk protein (substance)</td><td>Cow's milk protein (substance)</td><td>Cow's milk protein</td><td>koemelkeiwit</td><td>protéine de lait de vache</td></tr><tr><td><a href=\"http://snomed.info/id/230034002\">230034002</a></td><td>Nuts and seeds (substance)</td><td>Nuts and seeds (substance)</td><td>Nuts and seeds</td><td>noten en zaden</td><td>noix et graines</td></tr><tr><td><a href=\"http://snomed.info/id/7791007\">7791007</a></td><td>Soy protein (substance)</td><td>Soy protein (substance)</td><td>Soy protein</td><td>soja-eiwit</td><td>protéine de soya</td></tr><tr><td><a href=\"http://snomed.info/id/89707004\">89707004</a></td><td>Sesame oil (substance)</td><td>Sesame oil (substance)</td><td>Sesame oil</td><td>sesamolie</td><td>huile de sésame</td></tr><tr><td><a href=\"http://snomed.info/id/260167008\">260167008</a></td><td>Sesame seed (substance)</td><td>Sesame seed (substance)</td><td>Sesame seed</td><td>sesamzaad</td><td>graine de sésame</td></tr><tr><td><a href=\"http://snomed.info/id/735029006\">735029006</a></td><td>Shellfish (substance)</td><td>Shellfish (substance)</td><td>Shellfish</td><td>schaal- en schelpdieren</td><td>coquillages et crustacés</td></tr><tr><td><a href=\"http://snomed.info/id/710179004\">710179004</a></td><td>Lupine seed (substance)</td><td>Lupine seed (substance)</td><td>Lupine seed</td><td>lupinezaad</td><td>graine de lupin</td></tr><tr><td><a href=\"http://snomed.info/id/735977009\">735977009</a></td><td>Marine crustacean (substance)</td><td>Marine crustacean (substance)</td><td>Marine crustacean</td><td>schaaldieren</td><td>crustacés</td></tr></table></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
+  "url": "https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent",
+  "version": "1.0.0",
+  "name": "BeCausativeAgent",
+  "status": "active",
+  "date": "2022-10-12T22:24:11+00:00",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Codes as communicated by NIHDI and the FPS Terminology Center differentiating types of causative agent. This valueset supports the Belgian federal FHIR profiling effort.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "264295007",
+            "display": "Cow's milk protein (substance)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.ct/info",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Cow's milk protein (substance)"
+              },
+              {
+                "language": "en",
+                "value": "Cow's milk protein"
+              },
+              {
+                "language": "nl-BE",
+                "value": "koemelkeiwit"
+              },
+              {
+                "language": "fr-BE",
+                "value": "protéine de lait de vache"
+              }
+            ]
+          },
+          {
+            "code": "230034002",
+            "display": "Nuts and seeds (substance)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.ct/info",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Nuts and seeds (substance)"
+              },
+              {
+                "language": "en",
+                "value": "Nuts and seeds"
+              },
+              {
+                "language": "nl-BE",
+                "value": "noten en zaden"
+              },
+              {
+                "language": "fr-BE",
+                "value": "noix et graines"
+              }
+            ]
+          },
+          {
+            "code": "7791007",
+            "display": "Soy protein (substance)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.ct/info",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Soy protein (substance)"
+              },
+              {
+                "language": "en",
+                "value": "Soy protein"
+              },
+              {
+                "language": "nl-BE",
+                "value": "soja-eiwit"
+              },
+              {
+                "language": "fr-BE",
+                "value": "protéine de soya"
+              }
+            ]
+          },
+          {
+            "code": "89707004",
+            "display": "Sesame oil (substance)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.ct/info",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Sesame oil (substance)"
+              },
+              {
+                "language": "en",
+                "value": "Sesame oil"
+              },
+              {
+                "language": "nl-BE",
+                "value": "sesamolie"
+              },
+              {
+                "language": "fr-BE",
+                "value": "huile de sésame"
+              }
+            ]
+          },
+          {
+            "code": "260167008",
+            "display": "Sesame seed (substance)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.ct/info",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Sesame seed (substance)"
+              },
+              {
+                "language": "en",
+                "value": "Sesame seed"
+              },
+              {
+                "language": "nl-BE",
+                "value": "sesamzaad"
+              },
+              {
+                "language": "fr-BE",
+                "value": "graine de sésame"
+              }
+            ]
+          },
+          {
+            "code": "735029006",
+            "display": "Shellfish (substance)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.ct/info",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Shellfish (substance)"
+              },
+              {
+                "language": "en",
+                "value": "Shellfish"
+              },
+              {
+                "language": "nl-BE",
+                "value": "schaal- en schelpdieren"
+              },
+              {
+                "language": "fr-BE",
+                "value": "coquillages et crustacés"
+              }
+            ]
+          },
+          {
+            "code": "710179004",
+            "display": "Lupine seed (substance)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.ct/info",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Lupine seed (substance)"
+              },
+              {
+                "language": "en",
+                "value": "Lupine seed"
+              },
+              {
+                "language": "nl-BE",
+                "value": "lupinezaad"
+              },
+              {
+                "language": "fr-BE",
+                "value": "graine de lupin"
+              }
+            ]
+          },
+          {
+            "code": "735977009",
+            "display": "Marine crustacean (substance)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.ct/info",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Marine crustacean (substance)"
+              },
+              {
+                "language": "en",
+                "value": "Marine crustacean"
+              },
+              {
+                "language": "nl-BE",
+                "value": "schaaldieren"
+              },
+              {
+                "language": "fr-BE",
+                "value": "crustacés"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
