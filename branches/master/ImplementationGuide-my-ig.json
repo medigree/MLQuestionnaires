@@ -3,12 +3,12 @@
   "id": "my-ig",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example</pre><div><p>Multilingual Questionnaires.</p>\n</div></div>"
   },
   "url": "http://example.com/fhir/example",
   "version": "1.0.0",
   "name": "ExampleIG",
-  "title": "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1",
+  "title": "Multilingual Questionnaires",
   "status": "active",
   "date": "2020-02-26",
   "publisher": "My Organization",
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "description": "Example IG exercises many of the fields in a SUSHI configuration.",
+  "description": "Multilingual Questionnaires.",
   "jurisdiction": [
     {
       "coding": [

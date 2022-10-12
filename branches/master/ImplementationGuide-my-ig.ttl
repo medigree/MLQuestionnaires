@@ -10,12 +10,12 @@
   fhir:Resource.id [ fhir:value "my-ig"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example</pre><div><p>Multilingual Questionnaires.</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://example.com/fhir/example"];
   fhir:ImplementationGuide.version [ fhir:value "1.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "ExampleIG"];
-  fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"];
+  fhir:ImplementationGuide.title [ fhir:value "Multilingual Questionnaires"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
   fhir:ImplementationGuide.date [ fhir:value "2020-02-26"^^xsd:date];
   fhir:ImplementationGuide.publisher [ fhir:value "My Organization"];
@@ -41,7 +41,7 @@
        fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "Example IG exercises many of the fields in a SUSHI configuration."];
+  fhir:ImplementationGuide.description [ fhir:value "Multilingual Questionnaires."];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
